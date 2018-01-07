@@ -1,0 +1,87 @@
+@import '../../style/mixins';
+@import '../../style/themes/default';
+
+.ej-badge {
+  position: relative;
+  display: inline-block;
+  line-height: @ej-line-height-base;
+  vertical-align: middle;
+
+  &-text {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    top: -1 * @ej-spacing-v-sm;
+    height: @ej-size-icon-xs;
+    line-height: @ej-size-icon-xs;
+    min-width: @ej-size-icon-xs / 2;
+    border-radius: 2 * @ej-spacing-v-sm;
+    padding: 0 @ej-spacing-h-sm;
+    text-align: center;
+    font-size: @ej-font-size-caption-sm;
+    color: @ej-color-text-base-inverse;
+    background-color: @ej-color-important;
+    white-space: nowrap;
+    transform: translateX(-45%);
+    transform-origin: -10% center;
+    z-index: 10;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", SimSun, sans-serif;
+
+    a {
+      color: @ej-color-text-base-inverse;
+    }
+
+    p {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  &-hot &-text {
+    background-color: #f96268;
+  }
+
+  &-dot {
+    position: absolute;
+    transform: translateX(-50%);
+    transform-origin: 0 center;
+    top: -2 * @ej-border-width-lg;
+    height: 0.5 * @ej-font-size-button-link;
+    width: 0.5 * @ej-font-size-button-link;
+    border-radius: 100%;
+    background: @ej-color-important;
+    z-index: 10;
+
+    &-large {
+      height: @ej-font-size-button-link;
+      width: @ej-font-size-button-link;
+    }
+  }
+
+  &-not-a-wrapper &-text,
+  &-not-a-wrapper &-dot {
+    top: auto;
+    display: block;
+    position: relative;
+    transform: translateX(0);
+  }
+
+  &-corner {
+    width: 5 * @ej-font-size-button-link;
+    padding: 0.5 * @ej-font-size-button-link;
+    position: absolute;
+    right: -2 * @ej-font-size-button-link;
+    top: 0.5 * @ej-font-size-button-link;
+    background-color: @ej-color-important;
+    color: @ej-color-text-base-inverse;
+    white-space: nowrap;
+    transform: rotate(45deg);
+    text-align: center;
+    font-size: @ej-font-size-subhead;
+
+    &-wrapper {
+      overflow: hidden;
+    }
+  }
+}

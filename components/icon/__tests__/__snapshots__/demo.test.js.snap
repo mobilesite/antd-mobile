@@ -1,0 +1,460 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/icon/demo/basic.md correctly 1`] = `
+<div
+  class="ej-grid ej-grid-square"
+>
+  <div
+    class="ej-flexbox ej-flexbox-justify-center ej-flexbox-align-stretch"
+  >
+    <div
+      class="ej-flexbox-item ej-grid-item"
+      style="width:33.333333333333336%"
+    >
+      <div
+        class="ej-grid-item-content"
+      >
+        <div
+          class="ej-grid-item-inner-content column-num-3"
+        >
+          <svg
+            class="ej-icon ej-icon-check-circle ej-icon-md"
+          >
+            <use
+              href="#check-circle"
+            />
+          </svg>
+          <div
+            class="ej-grid-text"
+          >
+            check-circle
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ej-flexbox-item ej-grid-item"
+      style="width:33.333333333333336%"
+    >
+      <div
+        class="ej-grid-item-content"
+      >
+        <div
+          class="ej-grid-item-inner-content column-num-3"
+        >
+          <svg
+            class="ej-icon ej-icon-check ej-icon-md"
+          >
+            <use
+              href="#check"
+            />
+          </svg>
+          <div
+            class="ej-grid-text"
+          >
+            check
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ej-flexbox-item ej-grid-item"
+      style="width:33.333333333333336%"
+    >
+      <div
+        class="ej-grid-item-content"
+      >
+        <div
+          class="ej-grid-item-inner-content column-num-3"
+        >
+          <svg
+            class="ej-icon ej-icon-check-circle-o ej-icon-md"
+          >
+            <use
+              href="#check-circle-o"
+            />
+          </svg>
+          <div
+            class="ej-grid-text"
+          >
+            check-circle-o
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="ej-flexbox ej-flexbox-justify-center ej-flexbox-align-stretch"
+  >
+    <div
+      class="ej-flexbox-item ej-grid-item"
+      style="width:33.333333333333336%"
+    >
+      <div
+        class="ej-grid-item-content"
+      >
+        <div
+          class="ej-grid-item-inner-content column-num-3"
+        >
+          <svg
+            class="ej-icon ej-icon-cross-circle ej-icon-md"
+          >
+            <use
+              href="#cross-circle"
+            />
+          </svg>
+          <div
+            class="ej-grid-text"
+          >
+            cross-circle
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ej-flexbox-item ej-grid-item"
+      style="width:33.333333333333336%"
+    >
+      <div
+        class="ej-grid-item-content"
+      >
+        <div
+          class="ej-grid-item-inner-content column-num-3"
+        >
+          <svg
+            class="ej-icon ej-icon-cross ej-icon-md"
+          >
+            <use
+              href="#cross"
+            />
+          </svg>
+          <div
+            class="ej-grid-text"
+          >
+            cross
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ej-flexbox-item ej-grid-item"
+      style="width:33.333333333333336%"
+    >
+      <div
+        class="ej-grid-item-content"
+      >
+        <div
+          class="ej-grid-item-inner-content column-num-3"
+        >
+          <svg
+            class="ej-icon ej-icon-cross-circle-o ej-icon-md"
+          >
+            <use
+              href="#cross-circle-o"
+            />
+          </svg>
+          <div
+            class="ej-grid-text"
+          >
+            cross-circle-o
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="ej-flexbox ej-flexbox-justify-center ej-flexbox-align-stretch"
+  >
+    <div
+      class="ej-flexbox-item ej-grid-item"
+      style="width:33.333333333333336%"
+    >
+      <div
+        class="ej-grid-item-content"
+      >
+        <div
+          class="ej-grid-item-inner-content column-num-3"
+        >
+          <svg
+            class="ej-icon ej-icon-up ej-icon-md"
+          >
+            <use
+              href="#up"
+            />
+          </svg>
+          <div
+            class="ej-grid-text"
+          >
+            up
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ej-flexbox-item ej-grid-item"
+      style="width:33.333333333333336%"
+    >
+      <div
+        class="ej-grid-item-content"
+      >
+        <div
+          class="ej-grid-item-inner-content column-num-3"
+        >
+          <svg
+            class="ej-icon ej-icon-down ej-icon-md"
+          >
+            <use
+              href="#down"
+            />
+          </svg>
+          <div
+            class="ej-grid-text"
+          >
+            down
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ej-flexbox-item ej-grid-item"
+      style="width:33.333333333333336%"
+    >
+      <div
+        class="ej-grid-item-content"
+      >
+        <div
+          class="ej-grid-item-inner-content column-num-3"
+        >
+          <svg
+            class="ej-icon ej-icon-left ej-icon-md"
+          >
+            <use
+              href="#left"
+            />
+          </svg>
+          <div
+            class="ej-grid-text"
+          >
+            left
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="ej-flexbox ej-flexbox-justify-center ej-flexbox-align-stretch"
+  >
+    <div
+      class="ej-flexbox-item ej-grid-item"
+      style="width:33.333333333333336%"
+    >
+      <div
+        class="ej-grid-item-content"
+      >
+        <div
+          class="ej-grid-item-inner-content column-num-3"
+        >
+          <svg
+            class="ej-icon ej-icon-right ej-icon-md"
+          >
+            <use
+              href="#right"
+            />
+          </svg>
+          <div
+            class="ej-grid-text"
+          >
+            right
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ej-flexbox-item ej-grid-item"
+      style="width:33.333333333333336%"
+    >
+      <div
+        class="ej-grid-item-content"
+      >
+        <div
+          class="ej-grid-item-inner-content column-num-3"
+        >
+          <svg
+            class="ej-icon ej-icon-ellipsis ej-icon-md"
+          >
+            <use
+              href="#ellipsis"
+            />
+          </svg>
+          <div
+            class="ej-grid-text"
+          >
+            ellipsis
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ej-flexbox-item ej-grid-item"
+      style="width:33.333333333333336%"
+    >
+      <div
+        class="ej-grid-item-content"
+      >
+        <div
+          class="ej-grid-item-inner-content column-num-3"
+        >
+          <svg
+            class="ej-icon ej-icon-loading ej-icon-md"
+          >
+            <use
+              href="#loading"
+            />
+          </svg>
+          <div
+            class="ej-grid-text"
+          >
+            loading
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/icon/demo/size.md correctly 1`] = `
+<div
+  class="ej-grid ej-grid-square"
+>
+  <div
+    class="ej-flexbox ej-flexbox-justify-center ej-flexbox-align-stretch"
+  >
+    <div
+      class="ej-flexbox-item ej-grid-item"
+      style="width:20%"
+    >
+      <div
+        class="ej-grid-item-content"
+      >
+        <div
+          class="ej-grid-item-inner-content column-num-5"
+        >
+          <svg
+            class="ej-icon ej-icon-search ej-icon-xxs"
+          >
+            <use
+              href="#search"
+            />
+          </svg>
+          <div
+            class="ej-grid-text"
+          >
+            xxs
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ej-flexbox-item ej-grid-item"
+      style="width:20%"
+    >
+      <div
+        class="ej-grid-item-content"
+      >
+        <div
+          class="ej-grid-item-inner-content column-num-5"
+        >
+          <svg
+            class="ej-icon ej-icon-search ej-icon-xs"
+          >
+            <use
+              href="#search"
+            />
+          </svg>
+          <div
+            class="ej-grid-text"
+          >
+            xs
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ej-flexbox-item ej-grid-item"
+      style="width:20%"
+    >
+      <div
+        class="ej-grid-item-content"
+      >
+        <div
+          class="ej-grid-item-inner-content column-num-5"
+        >
+          <svg
+            class="ej-icon ej-icon-search ej-icon-sm"
+          >
+            <use
+              href="#search"
+            />
+          </svg>
+          <div
+            class="ej-grid-text"
+          >
+            sm
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ej-flexbox-item ej-grid-item"
+      style="width:20%"
+    >
+      <div
+        class="ej-grid-item-content"
+      >
+        <div
+          class="ej-grid-item-inner-content column-num-5"
+        >
+          <svg
+            class="ej-icon ej-icon-search ej-icon-md"
+          >
+            <use
+              href="#search"
+            />
+          </svg>
+          <div
+            class="ej-grid-text"
+          >
+            md
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ej-flexbox-item ej-grid-item"
+      style="width:20%"
+    >
+      <div
+        class="ej-grid-item-content"
+      >
+        <div
+          class="ej-grid-item-inner-content column-num-5"
+        >
+          <svg
+            class="ej-icon ej-icon-search ej-icon-lg"
+          >
+            <use
+              href="#search"
+            />
+          </svg>
+          <div
+            class="ej-grid-text"
+          >
+            lg
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

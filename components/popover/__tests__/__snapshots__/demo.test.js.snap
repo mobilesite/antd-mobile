@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/popover/demo/basic.md correctly 1`] = `
+<div>
+  <div
+    class="ej-navbar ej-navbar-light"
+  >
+    <div
+      class="ej-navbar-left"
+      role="button"
+    />
+    <div
+      class="ej-navbar-title"
+    >
+      NavBar
+    </div>
+    <div
+      class="ej-navbar-right"
+    >
+      <div
+        style="height:100%;padding:0 15px;margin-right:-15px;display:flex;align-items:center"
+      >
+        <svg
+          class="ej-icon ej-icon-ellipsis ej-icon-md"
+        >
+          <use
+            href="#ellipsis"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/nav-bar/demo/basic.md correctly 1`] = `
+<div>
+  <div
+    class="ej-navbar ej-navbar-light"
+  >
+    <div
+      class="ej-navbar-left"
+      role="button"
+    >
+      <span
+        aria-hidden="true"
+        class="ej-navbar-left-icon"
+      >
+        <svg
+          class="ej-icon ej-icon-left ej-icon-md"
+        >
+          <use
+            href="#left"
+          />
+        </svg>
+      </span>
+    </div>
+    <div
+      class="ej-navbar-title"
+    >
+      NavBar
+    </div>
+    <div
+      class="ej-navbar-right"
+    >
+      <svg
+        class="ej-icon ej-icon-search ej-icon-md"
+        style="margin-right:16px"
+      >
+        <use
+          href="#search"
+        />
+      </svg>
+      <svg
+        class="ej-icon ej-icon-ellipsis ej-icon-md"
+      >
+        <use
+          href="#ellipsis"
+        />
+      </svg>
+    </div>
+  </div>
+  <div
+    class="ej-navbar ej-navbar-dark"
+  >
+    <div
+      class="ej-navbar-left"
+      role="button"
+    >
+      Back
+    </div>
+    <div
+      class="ej-navbar-title"
+    >
+      NavBar
+    </div>
+    <div
+      class="ej-navbar-right"
+    >
+      <svg
+        class="ej-icon ej-icon-search ej-icon-md"
+        style="margin-right:16px"
+      >
+        <use
+          href="#search"
+        />
+      </svg>
+      <svg
+        class="ej-icon ej-icon-ellipsis ej-icon-md"
+      >
+        <use
+          href="#ellipsis"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,99 @@
+@hd: 1px; // 基本单位
+
+.ej-demo-page {
+  .ej-demo-hd {
+    position: relative;
+    overflow: hidden;
+    .ej-demo-title,
+    .ej-demo-subtitle {
+      text-align: left;
+      padding-left: 16px;
+    }
+    .ej-demo-title {
+      color: rgba(0, 0, 0, .75);
+      font-size: 21px;
+      font-weight: normal;
+      margin: 27px 0 15px;
+    }
+    .ej-demo-subtitle {
+      font-size: 13px;
+      color: rgba(0, 0, 0, .75);
+      font-weight: normal;
+      margin: 0 0 27px;
+    }
+  }
+  .ej-demo-bd {
+    .ej-list {
+      margin: 0 16px 12px;
+      background-color: white;
+      border-radius: 2px;
+      .ej-list-header {
+        padding: 0;
+        padding-left: 24px;
+        height: 70px;
+        line-height: 70px;
+        color: #404040;
+        font-size: 16px;
+      }
+      .ej-list-body {
+        border-top: none;
+        &::before {
+          display: none;
+        }
+      }
+      .ej-list-item {
+        padding-left: 24px;
+        .ej-list-content {
+          color: #666;
+          font-size: 14px;
+        }
+      }
+      &.category-closed {
+        .ej-list-header {
+          position: relative;
+        }
+        .ej-list-body {
+          display: none;
+        }
+      }
+    }
+  }
+  .ej-demo-category {
+    display: flex;
+    &-name {
+      flex: 1;
+    }
+    &-arrow {
+      width: 50px;
+      text-align: center;
+      transform: rotate(0deg);
+      transition: transform 0.3s;
+      span {
+        margin-top: 5px;
+        display: inline-block;
+        color: #c7c7cc;
+      }
+    }
+  }
+}
+
+.category-open .ej-demo-category .ej-demo-category-arrow {
+  transform: rotate(-180deg);
+}
+
+.hide {
+  display: none!important;
+}
+
+.show {
+  display: block!important;
+}
+
+html,
+body {
+  font-family: "PingFang SC", "Helvetica Neue", "Hiragino Sans GB", Helvetica, "Microsoft YaHei", Arial;
+}
+
+.nav-arrow-down {
+  transform: scale(0.6);
+}

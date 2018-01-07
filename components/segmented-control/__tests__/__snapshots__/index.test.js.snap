@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SegmentedControl renders correctly 1`] = `
+<div
+  class="ej-segment"
+  role="tablist"
+>
+  <div
+    aria-disabled="false"
+    aria-selected="true"
+    class="ej-segment-item ej-segment-item-selected"
+    role="tab"
+    style="color:#fff;background-color:;border-color:"
+  >
+    <div
+      class="ej-segment-item-inner"
+    />
+    切换一
+  </div>
+  <div
+    aria-disabled="false"
+    aria-selected="false"
+    class="ej-segment-item"
+    role="tab"
+    style="color:;background-color:transparent;border-color:"
+  >
+    <div
+      class="ej-segment-item-inner"
+    />
+    切换二
+  </div>
+</div>
+`;

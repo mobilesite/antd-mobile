@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/stepper/demo/basic.md correctly 1`] = `
+<div
+  class="ej-list"
+>
+  <div
+    class="ej-list-body"
+  >
+    <div
+      class="ej-list-item ej-list-item-middle"
+    >
+      <div
+        class="ej-list-line ej-list-line-wrap"
+      >
+        <div
+          class="ej-list-content"
+        >
+          Show number value
+        </div>
+        <div
+          class="ej-list-extra"
+        >
+          <div
+            class="ej-stepper showNumber"
+            style="width:100%;min-width:100px"
+          >
+            <div
+              class="ej-stepper-handler-wrap"
+            >
+              <span
+                aria-disabled="false"
+                aria-label="Increase Value"
+                class="ej-stepper-handler ej-stepper-handler-up "
+                role="button"
+                unselectable="unselectable"
+              >
+                <svg
+                  class="ej-icon ej-icon-plus ej-icon-xxs"
+                >
+                  <use
+                    href="#plus"
+                  />
+                </svg>
+              </span>
+              <span
+                aria-disabled="false"
+                aria-label="Decrease Value"
+                class="ej-stepper-handler ej-stepper-handler-down "
+                role="button"
+                unselectable="unselectable"
+              >
+                <svg
+                  class="ej-icon ej-icon-minus ej-icon-xxs"
+                >
+                  <use
+                    href="#minus"
+                  />
+                </svg>
+              </span>
+            </div>
+            <div
+              aria-valuemax="10"
+              aria-valuemin="1"
+              aria-valuenow="3"
+              class="ej-stepper-input-wrap"
+              role="spinbutton"
+            >
+              <input
+                autocomplete="off"
+                class="ej-stepper-input"
+                max="10"
+                min="1"
+                step="1"
+                value="3"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ej-list-ripple"
+        style="display:none"
+      />
+    </div>
+    <div
+      class="ej-list-item ej-list-item-middle"
+    >
+      <div
+        class="ej-list-line"
+      >
+        <div
+          class="ej-list-content"
+        >
+          Disabled
+        </div>
+        <div
+          class="ej-list-extra"
+        >
+          <div
+            class="ej-stepper showNumber ej-stepper-disabled"
+            style="width:100%;min-width:100px"
+          >
+            <div
+              class="ej-stepper-handler-wrap"
+            >
+              <span
+                aria-disabled="true"
+                aria-label="Increase Value"
+                class="ej-stepper-handler ej-stepper-handler-up "
+                role="button"
+                unselectable="unselectable"
+              >
+                <svg
+                  class="ej-icon ej-icon-plus ej-icon-xxs"
+                >
+                  <use
+                    href="#plus"
+                  />
+                </svg>
+              </span>
+              <span
+                aria-disabled="true"
+                aria-label="Decrease Value"
+                class="ej-stepper-handler ej-stepper-handler-down "
+                role="button"
+                unselectable="unselectable"
+              >
+                <svg
+                  class="ej-icon ej-icon-minus ej-icon-xxs"
+                >
+                  <use
+                    href="#minus"
+                  />
+                </svg>
+              </span>
+            </div>
+            <div
+              aria-valuemax="10"
+              aria-valuemin="1"
+              aria-valuenow="3"
+              class="ej-stepper-input-wrap"
+              role="spinbutton"
+            >
+              <input
+                autocomplete="off"
+                class="ej-stepper-input"
+                disabled=""
+                max="10"
+                min="1"
+                step="1"
+                value="3"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ej-list-ripple"
+        style="display:none"
+      />
+    </div>
+  </div>
+</div>
+`;

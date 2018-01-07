@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/list-view/demo/basic.md correctly 1`] = `
+<div
+  class="ej-list-view-scrollview"
+  style="position:relative;overflow:auto;-webkit-overflow-scrolling:touch;height:0"
+>
+  <div
+    class="ej-list-view-scrollview-content ej-list"
+    style="position:absolute;min-width:100%"
+  >
+    <div
+      class="ej-list-header"
+    >
+      <span>
+        header
+      </span>
+    </div>
+    <div
+      class="ej-list-body my-body"
+    >
+      <span
+        style="display:none"
+      >
+        you can custom body wrap element
+      </span>
+    </div>
+    <div
+      class="ej-list-footer"
+    >
+      <div
+        style="padding:30px;text-align:center"
+      >
+        Loading...
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/list-view/demo/basic-body.md correctly 1`] = `
+<div
+  class="ej-list ej-list-view-scrollview"
+>
+  <div
+    class="ej-list-header"
+  >
+    <span>
+      header
+    </span>
+  </div>
+  <div
+    class="ej-list-body"
+  />
+  <div
+    class="ej-list-footer"
+  >
+    <div
+      style="padding:30px;text-align:center"
+    >
+      Loading...
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/list-view/demo/basic-sticky.md correctly 1`] = `
+<div
+  class="ej-list sticky-list ej-list-view-scrollview"
+>
+  <div
+    class="ej-list-header"
+  >
+    <span>
+      header
+    </span>
+  </div>
+  <div
+    class="ej-list-body"
+  />
+  <div
+    class="ej-list-footer"
+  >
+    <div
+      style="padding:30px;text-align:center"
+    >
+      Loading...
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/list-view/demo/idxed.md correctly 1`] = `
+<div
+  style="padding-top:44px;position:relative"
+>
+  <div
+    style="position:absolute;top:0;left:0;right:0"
+  >
+    <form
+      action="#"
+      class="ej-search"
+    >
+      <div
+        class="ej-search-input"
+      >
+        <div
+          class="ej-search-synthetic-ph"
+        >
+          <span
+            class="ej-search-synthetic-ph-container"
+          >
+            <i
+              class="ej-search-synthetic-ph-icon"
+            />
+            <span
+              class="ej-search-synthetic-ph-placeholder"
+              style="visibility:visible"
+            >
+              Search
+            </span>
+          </span>
+        </div>
+        <input
+          class="ej-search-value"
+          placeholder="Search"
+          type="search"
+          value=""
+        />
+        <a
+          class="ej-search-clear"
+        />
+      </div>
+      <div
+        class="ej-search-cancel"
+      >
+        取消
+      </div>
+    </form>
+  </div>
+  <div
+    class="ej-indexed-list-container"
+  >
+    <div
+      class="ej-indexed-list ej-list sticky-list ej-list-view-scrollview"
+    >
+      <div
+        class="ej-list-header"
+      >
+        <span>
+          custom header
+        </span>
+      </div>
+      <div
+        class="ej-list-body"
+      />
+      <div
+        class="ej-list-footer"
+      >
+        <span>
+          custom footer
+        </span>
+      </div>
+    </div>
+    <ul
+      class="ej-indexed-list-quick-search-bar"
+      style="top:85px"
+    >
+      <li
+        data-qf-target="#"
+      >
+        #
+      </li>
+    </ul>
+  </div>
+</div>
+`;

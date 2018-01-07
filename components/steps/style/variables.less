@@ -1,0 +1,27 @@
+@stepsPrefixCls: ej-steps;
+@errorTailCls: error-tail;
+@defaultIconSize: 22px;
+@smallIconSize: 18px;
+@stepDescriptionMaxWidth: 100px;
+@iconPrefixCls: am;
+
+// 对应 4 种状态的颜色变量，用在自定义函数 .step-item-status(@status) 上
+@process-icon-color: @ej-color-primary;
+@process-title-color: @ej-color-text-base;
+@process-description-color: @process-title-color;
+@process-tail-color: @ej-color-border-base;
+
+@wait-icon-color: @ej-fill-icon-base;
+@wait-title-color: @ej-color-text-base;
+@wait-description-color: @wait-title-color;
+@wait-tail-color: @ej-color-border-base;
+
+@finish-icon-color: @ej-color-primary;
+@finish-title-color: @ej-color-text-base;
+@finish-description-color: @finish-title-color;
+@finish-tail-color: @process-icon-color;
+
+@error-icon-color: @ej-color-error;
+@error-title-color: @error-icon-color;
+@error-description-color: @error-icon-color;
+@error-tail-color: @process-tail-color;

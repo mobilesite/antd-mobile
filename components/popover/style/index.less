@@ -1,0 +1,70 @@
+@import '../../style/mixins';
+@import '../../style/themes/default';
+
+@popoverPrefixCls: ej-popover;
+
+@import './base';
+
+.@{popoverPrefixCls}-inner {
+  font-size: @ej-font-size-subhead;
+  color: @ej-color-text-base;
+  background-color: @ej-fill-base;
+  border-radius: @ej-radius-sm;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.21);
+  overflow: hidden; // for popover item active background color not overflow
+
+  &-wrapper {
+    position: relative;
+    background-color: @ej-fill-base;
+  }
+}
+
+.@{popoverPrefixCls} .@{popoverPrefixCls}-item {
+  padding: 0 @ej-spacing-h-md;
+
+  &-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 39px;
+    box-sizing: border-box;
+    padding: 0 @ej-spacing-h-md;
+  }
+  &:not(:first-child) {
+    .@{popoverPrefixCls}-item-container {
+      .mixin-hairline('top');
+    }
+  }
+
+  &.@{popoverPrefixCls}-item-active {
+    .@{popoverPrefixCls}-item-container {
+      .mixin-hairline-remove('top');
+    }
+  }
+
+  &.@{popoverPrefixCls}-item-active + .@{popoverPrefixCls}-item .@{popoverPrefixCls}-item-container {
+    .mixin-hairline-remove('top');
+  }
+
+  &.@{popoverPrefixCls}-item-active {
+    background-color: @ej-color-border-base;
+  }
+
+  &.@{popoverPrefixCls}-item-active.@{popoverPrefixCls}-item-fix-active-arrow {
+    position: relative;
+  }
+
+  &.@{popoverPrefixCls}-item-disabled {
+    color: @ej-color-text-disabled;
+
+    &.@{popoverPrefixCls}-item-active {
+      background-color: transparent;
+    }
+  }
+
+  &-icon {
+    margin-right: @ej-spacing-h-md;
+    width: @ej-size-icon-xs;
+    height: @ej-size-icon-xs;
+  }
+}

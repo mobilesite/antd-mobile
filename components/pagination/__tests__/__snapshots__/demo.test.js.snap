@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/pagination/demo/basic.md correctly 1`] = `
+<div
+  class="pagination-container"
+>
+  <p
+    class="sub-title"
+  >
+    Button with text
+  </p>
+  <div
+    class="ej-pagination"
+  >
+    <div
+      class="ej-flexbox ej-flexbox-align-center"
+    >
+      <div
+        class="ej-flexbox-item ej-pagination-wrap-btn ej-pagination-wrap-btn-prev"
+      >
+        <a
+          aria-disabled="true"
+          class="ej-button ej-button-inline ej-button-disabled"
+          role="button"
+        >
+          <span>
+            Prev
+          </span>
+        </a>
+      </div>
+      <div
+        aria-live="assertive"
+        class="ej-flexbox-item ej-pagination-wrap"
+      >
+        <span
+          class="active"
+        >
+          1
+        </span>
+        /
+        <span>
+          5
+        </span>
+      </div>
+      <div
+        class="ej-flexbox-item ej-pagination-wrap-btn ej-pagination-wrap-btn-next"
+      >
+        <a
+          aria-disabled="false"
+          class="ej-button ej-button-inline"
+          role="button"
+        >
+          <span>
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <p
+    class="sub-title"
+  >
+    Button with text and icon
+  </p>
+  <div
+    class="ej-pagination custom-pagination-with-icon"
+  >
+    <div
+      class="ej-flexbox ej-flexbox-align-center"
+    >
+      <div
+        class="ej-flexbox-item ej-pagination-wrap-btn ej-pagination-wrap-btn-prev"
+      >
+        <a
+          aria-disabled="true"
+          class="ej-button ej-button-inline ej-button-disabled"
+          role="button"
+        >
+          <span
+            class="arrow-align"
+          >
+            <svg
+              class="ej-icon ej-icon-left ej-icon-md"
+            >
+              <use
+                href="#left"
+              />
+            </svg>
+            上一步
+          </span>
+        </a>
+      </div>
+      <div
+        aria-live="assertive"
+        class="ej-flexbox-item ej-pagination-wrap"
+      >
+        <span
+          class="active"
+        >
+          1
+        </span>
+        /
+        <span>
+          5
+        </span>
+      </div>
+      <div
+        class="ej-flexbox-item ej-pagination-wrap-btn ej-pagination-wrap-btn-next"
+      >
+        <a
+          aria-disabled="false"
+          class="ej-button ej-button-inline"
+          role="button"
+        >
+          <span
+            class="arrow-align"
+          >
+            下一步
+            <svg
+              class="ej-icon ej-icon-right ej-icon-md"
+            >
+              <use
+                href="#right"
+              />
+            </svg>
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <p
+    class="sub-title"
+  >
+    Hide number
+  </p>
+  <div
+    class="ej-pagination"
+  >
+    <div
+      class="ej-flexbox ej-flexbox-align-center"
+    >
+      <div
+        class="ej-flexbox-item ej-pagination-wrap-btn ej-pagination-wrap-btn-prev"
+      >
+        <a
+          aria-disabled="true"
+          class="ej-button ej-button-inline ej-button-disabled"
+          role="button"
+        >
+          <span>
+            Prev
+          </span>
+        </a>
+      </div>
+      <div
+        class="ej-flexbox-item ej-pagination-wrap-btn ej-pagination-wrap-btn-next"
+      >
+        <a
+          aria-disabled="false"
+          class="ej-button ej-button-inline"
+          role="button"
+        >
+          <span>
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <p
+    class="sub-title"
+  >
+    Show number only
+  </p>
+  <div
+    class="ej-pagination"
+  >
+    <div
+      class="ej-pagination-wrap"
+    >
+      <span
+        class="active"
+      >
+        3
+      </span>
+      /
+      <span>
+        5
+      </span>
+    </div>
+  </div>
+  <p
+    class="sub-title"
+  >
+    Point style
+  </p>
+  <div
+    class="ej-pagination"
+    style="margin-bottom:16px"
+  >
+    <div
+      class="ej-pagination-wrap"
+    >
+      <div
+        class="ej-pagination-wrap-dot"
+      >
+        <span />
+      </div>
+      <div
+        class="ej-pagination-wrap-dot ej-pagination-wrap-dot-active"
+      >
+        <span />
+      </div>
+      <div
+        class="ej-pagination-wrap-dot"
+      >
+        <span />
+      </div>
+      <div
+        class="ej-pagination-wrap-dot"
+      >
+        <span />
+      </div>
+      <div
+        class="ej-pagination-wrap-dot"
+      >
+        <span />
+      </div>
+    </div>
+  </div>
+</div>
+`;

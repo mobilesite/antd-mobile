@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/action-sheet/demo/basic.md correctly 1`] = `
+<div
+  class="ej-wingblank ej-wingblank-lg"
+>
+  <a
+    aria-disabled="false"
+    class="ej-button"
+    role="button"
+  >
+    <span>
+      showActionSheet
+    </span>
+  </a>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <a
+    aria-disabled="false"
+    class="ej-button"
+    role="button"
+  >
+    <span>
+      showShareActionSheet
+    </span>
+  </a>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <a
+    aria-disabled="false"
+    class="ej-button"
+    role="button"
+  >
+    <span>
+      showShareActionSheetMulpitleLine
+    </span>
+  </a>
+</div>
+`;

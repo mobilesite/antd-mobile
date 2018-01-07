@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SegmentedControl renders correctly 1`] = `
+<label
+  class="ej-switch"
+>
+  <input
+    checked=""
+    class="ej-switch-checkbox"
+    name=""
+    type="checkbox"
+    value="on"
+  />
+  <div
+    class="checkbox"
+  />
+</label>
+`;

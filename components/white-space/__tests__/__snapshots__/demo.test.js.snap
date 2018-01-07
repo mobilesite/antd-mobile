@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/white-space/demo/basic.md correctly 1`] = `
+<div>
+  <div
+    class="ej-whitespace ej-whitespace-xs"
+  />
+  <div
+    class=" placeholder"
+  >
+    Block
+  </div>
+  <div
+    class="ej-whitespace ej-whitespace-sm"
+  />
+  <div
+    class=" placeholder"
+  >
+    Block
+  </div>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <div
+    class=" placeholder"
+  >
+    Block
+  </div>
+  <div
+    class="ej-whitespace ej-whitespace-lg"
+  />
+  <div
+    class=" placeholder"
+  >
+    Block
+  </div>
+  <div
+    class="ej-whitespace ej-whitespace-xl"
+  />
+  <div
+    class=" placeholder"
+  >
+    Block
+  </div>
+</div>
+`;

@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/picker-view/demo/basic.md correctly 1`] = `
+<div
+  class="ej-picker"
+  style="flex-direction:row"
+>
+  <div
+    class="ej-picker-col"
+    style="flex:1"
+  >
+    <div
+      class="ej-picker-col-mask"
+    />
+    <div
+      class="ej-picker-col-indicator "
+    />
+    <div
+      class="ej-picker-col-content"
+    >
+      <div
+        class="ej-picker-col-item ej-picker-col-item-selected "
+      >
+        2013
+      </div>
+      <div
+        class="ej-picker-col-item "
+      >
+        2014
+      </div>
+    </div>
+  </div>
+  <div
+    class="ej-picker-col"
+    style="flex:1"
+  >
+    <div
+      class="ej-picker-col-mask"
+    />
+    <div
+      class="ej-picker-col-indicator "
+    />
+    <div
+      class="ej-picker-col-content"
+    >
+      <div
+        class="ej-picker-col-item ej-picker-col-item-selected "
+      >
+        春
+      </div>
+      <div
+        class="ej-picker-col-item "
+      >
+        夏
+      </div>
+    </div>
+  </div>
+</div>
+`;

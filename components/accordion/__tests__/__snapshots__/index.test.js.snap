@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion match snapshot 1`] = `
+<div
+  class="ej-accordion"
+>
+  <div
+    class="ej-accordion-item"
+    role="tablist"
+  >
+    <div
+      aria-expanded="false"
+      class="ej-accordion-header"
+      role="tab"
+    >
+      <i
+        class="arrow"
+      />
+      标题一
+    </div>
+  </div>
+  <div
+    class="ej-accordion-item"
+    role="tablist"
+  >
+    <div
+      aria-expanded="false"
+      class="ej-accordion-header"
+      role="tab"
+    >
+      <i
+        class="arrow"
+      />
+      标题二
+    </div>
+  </div>
+</div>
+`;

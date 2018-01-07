@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SegmentedControl renders correctly 1`] = `
+<div
+  class="ej-tag ej-tag-normal"
+>
+  <div
+    class="ej-tag-text"
+  >
+    Basic
+  </div>
+</div>
+`;

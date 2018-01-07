@@ -1,0 +1,48 @@
+@import '../../style/themes/default';
+
+@paginationPrefixCls: ej-pagination;
+
+.@{paginationPrefixCls} {
+  &-wrap {
+    font-size: 18px;
+    color: @ej-color-text-base;
+    background: none;
+    text-align: center;
+
+    .active {
+      color: @ej-color-text-link;
+    }
+
+    &-btn {
+      text-align: center;
+
+      &-prev {
+        text-align: left;
+      }
+
+      &-next {
+        text-align: right;
+      }
+    }
+
+    &-dot {
+      display: inline-block;
+      zoom: 1;
+
+      > span {
+        display: block;
+        width: 8px;
+        height: 8px;
+        margin-right: @ej-spacing-h-sm;
+        border-radius: @ej-radius-circle;
+        background: @ej-fill-icon-base;
+      }
+
+      &-active {
+        > span {
+          background: #888;
+        }
+      }
+    }
+  }
+}

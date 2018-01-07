@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/accordion/demo/accordion.md correctly 1`] = `
+<div
+  style="margin-top:10px;margin-bottom:10px"
+>
+  <div
+    class="ej-accordion my-accordion"
+  >
+    <div
+      class="ej-accordion-item"
+      role="tablist"
+    >
+      <div
+        aria-expanded="false"
+        class="ej-accordion-header"
+        role="tab"
+      >
+        <i
+          class="arrow"
+        />
+        Title 1
+      </div>
+    </div>
+    <div
+      class="ej-accordion-item pad"
+      role="tablist"
+    >
+      <div
+        aria-expanded="false"
+        class="ej-accordion-header"
+        role="tab"
+      >
+        <i
+          class="arrow"
+        />
+        Title 2
+      </div>
+    </div>
+    <div
+      class="ej-accordion-item pad"
+      role="tablist"
+    >
+      <div
+        aria-expanded="false"
+        class="ej-accordion-header"
+        role="tab"
+      >
+        <i
+          class="arrow"
+        />
+        Title 3
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/accordion/demo/basic.md correctly 1`] = `
+<div
+  style="margin-top:10px;margin-bottom:10px"
+>
+  <div
+    class="ej-accordion my-accordion"
+  >
+    <div
+      class="ej-accordion-item ej-accordion-item-active"
+      role="tablist"
+    >
+      <div
+        aria-expanded="true"
+        class="ej-accordion-header"
+        role="tab"
+      >
+        <i
+          class="arrow"
+        />
+        Title 1
+      </div>
+      <div
+        class="ej-accordion-content ej-accordion-content-active"
+        role="tabpanel"
+      >
+        <div
+          class="ej-accordion-content-box"
+        >
+          <div
+            class="ej-list my-list"
+          >
+            <div
+              class="ej-list-body"
+            >
+              <div
+                class="ej-list-item ej-list-item-middle"
+              >
+                <div
+                  class="ej-list-line"
+                >
+                  <div
+                    class="ej-list-content"
+                  >
+                    content 1
+                  </div>
+                </div>
+                <div
+                  class="ej-list-ripple"
+                  style="display:none"
+                />
+              </div>
+              <div
+                class="ej-list-item ej-list-item-middle"
+              >
+                <div
+                  class="ej-list-line"
+                >
+                  <div
+                    class="ej-list-content"
+                  >
+                    content 2
+                  </div>
+                </div>
+                <div
+                  class="ej-list-ripple"
+                  style="display:none"
+                />
+              </div>
+              <div
+                class="ej-list-item ej-list-item-middle"
+              >
+                <div
+                  class="ej-list-line"
+                >
+                  <div
+                    class="ej-list-content"
+                  >
+                    content 3
+                  </div>
+                </div>
+                <div
+                  class="ej-list-ripple"
+                  style="display:none"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ej-accordion-item pad"
+      role="tablist"
+    >
+      <div
+        aria-expanded="false"
+        class="ej-accordion-header"
+        role="tab"
+      >
+        <i
+          class="arrow"
+        />
+        Title 2
+      </div>
+    </div>
+    <div
+      class="ej-accordion-item pad"
+      role="tablist"
+    >
+      <div
+        aria-expanded="false"
+        class="ej-accordion-header"
+        role="tab"
+      >
+        <i
+          class="arrow"
+        />
+        Title 3
+      </div>
+    </div>
+  </div>
+</div>
+`;

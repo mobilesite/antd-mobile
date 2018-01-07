@@ -1,0 +1,286 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/button/demo/basic.md correctly 1`] = `
+<div
+  class="ej-wingblank ej-wingblank-lg"
+>
+  <a
+    aria-disabled="false"
+    class="ej-button"
+    role="button"
+  >
+    <span>
+      default
+    </span>
+  </a>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <a
+    aria-disabled="true"
+    class="ej-button ej-button-disabled"
+    role="button"
+  >
+    <span>
+      default disabled
+    </span>
+  </a>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <a
+    aria-disabled="false"
+    class="ej-button ej-button-primary"
+    role="button"
+  >
+    <span>
+      primary
+    </span>
+  </a>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <a
+    aria-disabled="true"
+    class="ej-button ej-button-primary ej-button-disabled"
+    role="button"
+  >
+    <span>
+      primary disabled
+    </span>
+  </a>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <a
+    aria-disabled="false"
+    class="ej-button ej-button-warning"
+    role="button"
+  >
+    <span>
+      warning
+    </span>
+  </a>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <a
+    aria-disabled="true"
+    class="ej-button ej-button-warning ej-button-disabled"
+    role="button"
+  >
+    <span>
+      warning disabled
+    </span>
+  </a>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <a
+    aria-disabled="false"
+    class="ej-button ej-button-loading ej-button-icon"
+    role="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="ej-button-icon ej-icon ej-icon-loading ej-icon-md"
+    >
+      <use
+        href="#loading"
+      />
+    </svg>
+    <span>
+      loading button
+    </span>
+  </a>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <a
+    aria-disabled="false"
+    class="ej-button ej-button-icon"
+    role="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="ej-button-icon ej-icon ej-icon-check-circle-o ej-icon-md"
+    >
+      <use
+        href="#check-circle-o"
+      />
+    </svg>
+    <span>
+      with icon
+    </span>
+  </a>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <a
+    aria-disabled="false"
+    class="ej-button ej-button-icon"
+    role="button"
+  >
+    <img
+      alt=""
+      class="ej-icon ej-button-icon ej-icon-md"
+      src="https://gw.alipayobjects.com/zos/rmsportal/jBfVSpDwPbitsABtDDlB.svg"
+    />
+    <span>
+      with custom icon
+    </span>
+  </a>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <a
+    aria-disabled="false"
+    class="ej-button ej-button-primary ej-button-inline"
+    role="button"
+    style="margin-right:4px"
+  >
+    <span>
+      inline primary
+    </span>
+  </a>
+  <a
+    aria-disabled="false"
+    class="ej-button ej-button-borderfix ej-button-ghost ej-button-inline"
+    role="button"
+    style="margin-right:4px"
+  >
+    <span>
+      inline ghost
+    </span>
+  </a>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <a
+    aria-disabled="false"
+    class="ej-button ej-button-primary ej-button-small ej-button-inline"
+    role="button"
+    style="margin-right:4px"
+  >
+    <span>
+      primary
+    </span>
+  </a>
+  <a
+    aria-disabled="true"
+    class="ej-button ej-button-primary ej-button-small ej-button-inline ej-button-disabled"
+    role="button"
+  >
+    <span>
+      primary disabled
+    </span>
+  </a>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <a
+    aria-disabled="false"
+    class="ej-button ej-button-ghost ej-button-small ej-button-inline"
+    role="button"
+    style="margin-right:4px"
+  >
+    <span>
+      ghost
+    </span>
+  </a>
+  <a
+    aria-disabled="true"
+    class="ej-button ej-button-borderfix ej-button-ghost ej-button-small ej-button-inline ej-button-disabled"
+    role="button"
+  >
+    <span>
+      ghost disabled
+    </span>
+  </a>
+</div>
+`;
+
+exports[`renders ./components/button/demo/complex.md correctly 1`] = `
+<div
+  class="ej-list"
+  style="margin:5px 0;background-color:white"
+>
+  <div
+    class="ej-list-body"
+  >
+    <div
+      class="ej-list-item ej-list-item-middle"
+    >
+      <div
+        class="ej-list-line ej-list-line-multiple"
+      >
+        <div
+          class="ej-list-content"
+        >
+          Regional manager
+          <div
+            class="ej-list-brief"
+          >
+            Can be collected, refund, discount management, view data and other operations
+          </div>
+        </div>
+        <div
+          class="ej-list-extra"
+        >
+          <a
+            aria-disabled="false"
+            class="ej-button ej-button-ghost ej-button-small ej-button-inline"
+            role="button"
+          >
+            <span>
+              small
+            </span>
+          </a>
+        </div>
+      </div>
+      <div
+        class="ej-list-ripple"
+        style="display:none"
+      />
+    </div>
+    <div
+      class="ej-list-item ej-list-item-middle"
+    >
+      <div
+        class="ej-list-line ej-list-line-multiple"
+      >
+        <div
+          class="ej-list-content"
+        >
+          Regional manager
+          <div
+            class="ej-list-brief"
+          >
+            Can be collected, refund, discount management, view data and other operations
+          </div>
+        </div>
+        <div
+          class="ej-list-extra"
+        >
+          <a
+            aria-disabled="false"
+            class="ej-button ej-button-primary ej-button-small ej-button-inline"
+            role="button"
+          >
+            <span>
+              small
+            </span>
+          </a>
+        </div>
+      </div>
+      <div
+        class="ej-list-ripple"
+        style="display:none"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,56 @@
+@import '../../style/mixins';
+@import '../../style/themes/default';
+
+@tagPrefixCls: ej-tag;
+
+.@{tagPrefixCls} {
+  display: inline-block;
+  position: relative;
+  font-size: @ej-font-size-base;
+  text-align: center;
+  padding: 0 @ej-spacing-h-lg;
+  height: @ej-height-tag;
+  line-height: @ej-height-tag;
+  box-sizing: border-box;
+
+  &&-small {
+    height: @ej-height-tag-sm;
+    line-height: @ej-height-tag-sm;
+    padding: 0 @ej-spacing-h-sm;
+    font-size: @ej-font-size-icontext;
+  }
+
+  &-normal {
+    background-color: @ej-fill-base;
+    color: @ej-color-text-caption;
+    .mixin-hairline('all',  @ej-color-border-base, @ej-radius-sm);
+  }
+
+  &-active {
+    background-color: @ej-fill-base;
+    color: @ej-color-tag;
+    .mixin-hairline('all', @ej-color-tag, @ej-radius-sm);
+  }
+
+  &-disabled {
+    color: @ej-color-text-disabled;
+    background-color: @ej-fill-disabled;
+    .mixin-hairline('all', @ej-fill-disabled, @ej-radius-sm);
+  }
+
+  &-close {
+    position: absolute;
+    top: -9px;
+    left: -10px;
+    color: @ej-color-text-placeholder;
+
+    &-active {
+      color: @ej-color-text-caption;
+    }
+
+    .ej-icon {
+      background-color: @ej-fill-base;
+      border-radius: 9px;
+    }
+  }
+}

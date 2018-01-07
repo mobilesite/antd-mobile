@@ -1,0 +1,119 @@
+.@{modalPrefixClass} {
+  position: relative;
+  &:not(.@{modalPrefixClass}-transparent):not(.@{modalPrefixClass}-popup) {
+    width: 100%;
+    height: 100%;
+  }
+
+  &-mask {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: @ej-z-index-modal;
+    background-color: @ej-fill-mask;
+
+    &-hidden {
+      display: none;
+    }
+  }
+
+  &-wrap {
+    position: fixed;
+    overflow: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    z-index: @ej-z-index-modal;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &-popup {
+      display: block;
+    }
+  }
+
+  &-popup {
+    position: fixed;
+    left: 0;
+    width: 100%;
+
+    &-slide-down {
+      top: 0;
+    }
+
+    &-slide-up {
+      bottom: 0;
+    }
+  }
+
+  &&-transparent {
+    width: 270px;
+    .@{modalPrefixClass}-content {
+      border-radius: @ej-radius-lg;
+      height: auto;
+      padding-top: @ej-spacing-v-lg;
+
+      .@{modalPrefixClass}-body {
+        padding: 0 @ej-spacing-h-lg @ej-spacing-v-lg;
+      }
+    }
+  }
+
+  &-title {
+    margin: 0;
+    font-size: @ej-font-size-modal-heading;
+    line-height: @ej-line-height-base;
+    color: @ej-color-text-base;
+    text-align: center;
+  }
+
+  &-header {
+    padding: @ej-spacing-v-sm @ej-spacing-h-lg @ej-spacing-v-lg;
+  }
+
+  &-content {
+    position: relative;
+    background-color: @ej-fill-base;
+    border: 0;
+    background-clip: padding-box;
+    text-align: center;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  &-close {
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    outline: none;
+    position: absolute;
+    right: @ej-spacing-h-lg;
+    z-index: 999;
+    height: @ej-size-icon-sm;
+    width: @ej-size-icon-sm;
+
+    &-x {
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      .encoded-svg-background('modal_delete');
+    }
+  }
+
+  &-body {
+    font-size: @ej-font-size-subhead;
+    color: @ej-color-text-caption;
+    height: 100%;
+    line-height: @ej-line-height-paragraph;
+    overflow: auto;
+  }
+}

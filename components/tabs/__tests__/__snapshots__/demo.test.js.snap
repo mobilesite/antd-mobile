@@ -1,0 +1,645 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/tabs/demo/basic.md correctly 1`] = `
+<div>
+  <div
+    class="ej-tabs ej-tabs-horizontal ej-tabs-top"
+  >
+    <div
+      class="ej-tabs-tab-bar-wrap"
+    >
+      <div
+        class="ej-tabs-default-bar ej-tabs-default-bar-animated ej-tabs-default-bar-top"
+        style="background-color:#fff"
+      >
+        <div
+          class="ej-tabs-default-bar-content"
+          style="touch-action:pan-y"
+        >
+          <div
+            class="ej-tabs-default-bar-tab"
+            style="width:33.333333333333336%"
+          >
+            <span
+              class="ej-badge"
+            >
+              First Tab
+              <sup
+                class="ej-badge-text"
+              >
+                3
+              </sup>
+            </span>
+          </div>
+          <div
+            class="ej-tabs-default-bar-tab ej-tabs-default-bar-tab-active"
+            style="width:33.333333333333336%"
+          >
+            <span
+              class="ej-badge"
+            >
+              Second Tab
+              <sup
+                class="ej-badge-text"
+              >
+                今日(20)
+              </sup>
+            </span>
+          </div>
+          <div
+            class="ej-tabs-default-bar-tab"
+            style="width:33.333333333333336%"
+          >
+            <span
+              class="ej-badge"
+            >
+              Third Tab
+              <sup
+                class="ej-badge-dot"
+              />
+            </span>
+          </div>
+          <div
+            class="ej-tabs-default-bar-underline"
+            style="width:33.333333333333336%;left:33.333333333333336%"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="ej-tabs-content-wrap ej-tabs-content-wrap-animated"
+      style="touch-action:pan-x pan-y;transform:translate3d(-100%, 0px, 1px);-webkit-transform:translate3d(-100%, 0px, 1px);-moz-transform:translate3d(-100%, 0px, 1px)"
+    >
+      <div
+        class="ej-tabs-pane-wrap ej-tabs-pane-wrap-inactive"
+      >
+        <div
+          style="display:flex;align-items:center;justify-content:center;height:150px;background-color:#fff"
+        >
+          Content of first tab
+        </div>
+      </div>
+      <div
+        class="ej-tabs-pane-wrap ej-tabs-pane-wrap-active"
+      >
+        <div
+          style="display:flex;align-items:center;justify-content:center;height:150px;background-color:#fff"
+        >
+          Content of second tab
+        </div>
+      </div>
+      <div
+        class="ej-tabs-pane-wrap ej-tabs-pane-wrap-inactive"
+      >
+        <div
+          style="display:flex;align-items:center;justify-content:center;height:150px;background-color:#fff"
+        >
+          Content of third tab
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <div
+    class="ej-tabs ej-tabs-horizontal ej-tabs-bottom"
+  >
+    <div
+      class="ej-tabs-content-wrap ej-tabs-content-wrap-animated"
+      style="touch-action:pan-x pan-y;transform:translate3d(-100%, 0px, 1px);-webkit-transform:translate3d(-100%, 0px, 1px);-moz-transform:translate3d(-100%, 0px, 1px)"
+    >
+      <div
+        class="ej-tabs-pane-wrap ej-tabs-pane-wrap-inactive"
+      >
+        <div
+          style="display:flex;align-items:center;justify-content:center;height:150px;background-color:#fff"
+        >
+          Content of first tab
+        </div>
+      </div>
+      <div
+        class="ej-tabs-pane-wrap ej-tabs-pane-wrap-active"
+      >
+        <div
+          style="display:flex;align-items:center;justify-content:center;height:150px;background-color:#fff"
+        >
+          Content of second tab
+        </div>
+      </div>
+      <div
+        class="ej-tabs-pane-wrap ej-tabs-pane-wrap-inactive"
+      >
+        <div
+          style="display:flex;align-items:center;justify-content:center;height:150px;background-color:#fff"
+        >
+          Content of third tab
+        </div>
+      </div>
+    </div>
+    <div
+      class="ej-tabs-tab-bar-wrap"
+    >
+      <div
+        class="ej-tabs-default-bar ej-tabs-default-bar-animated ej-tabs-default-bar-bottom"
+        style="background-color:#fff"
+      >
+        <div
+          class="ej-tabs-default-bar-content"
+          style="touch-action:pan-y"
+        >
+          <div
+            class="ej-tabs-default-bar-tab"
+            style="width:33.333333333333336%"
+          >
+            <span>
+              First Tab
+            </span>
+          </div>
+          <div
+            class="ej-tabs-default-bar-tab ej-tabs-default-bar-tab-active"
+            style="width:33.333333333333336%"
+          >
+            <span>
+              Second Tab
+            </span>
+          </div>
+          <div
+            class="ej-tabs-default-bar-tab"
+            style="width:33.333333333333336%"
+          >
+            <span>
+              Third Tab
+            </span>
+          </div>
+          <div
+            class="ej-tabs-default-bar-underline"
+            style="width:33.333333333333336%;left:33.333333333333336%"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+</div>
+`;
+
+exports[`renders ./components/tabs/demo/fixedheight.md correctly 1`] = `
+<div>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <div
+    style="height:200px"
+  >
+    <div
+      class="ej-tabs ej-tabs-horizontal ej-tabs-top"
+    >
+      <div
+        class="ej-tabs-tab-bar-wrap"
+      >
+        <div
+          class="ej-tabs-default-bar ej-tabs-default-bar-animated ej-tabs-default-bar-top"
+          style="background-color:#fff"
+        >
+          <div
+            class="ej-tabs-default-bar-content"
+            style="touch-action:pan-y"
+          >
+            <div
+              class="ej-tabs-default-bar-tab ej-tabs-default-bar-tab-active"
+              style="width:33.333333333333336%"
+            >
+              First Tab
+            </div>
+            <div
+              class="ej-tabs-default-bar-tab"
+              style="width:33.333333333333336%"
+            >
+              Second Tab
+            </div>
+            <div
+              class="ej-tabs-default-bar-tab"
+              style="width:33.333333333333336%"
+            >
+              Third Tab
+            </div>
+            <div
+              class="ej-tabs-default-bar-underline"
+              style="width:33.333333333333336%;left:0%"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="ej-tabs-content-wrap ej-tabs-content-wrap-animated"
+        style="touch-action:pan-x pan-y;transform:translate3d(0%, 0px, 1px);-webkit-transform:translate3d(0%, 0px, 1px);-moz-transform:translate3d(0%, 0px, 1px)"
+      >
+        <div
+          class="ej-tabs-pane-wrap ej-tabs-pane-wrap-active"
+        >
+          <div
+            style="display:flex;align-items:center;justify-content:center;height:250px;background-color:#fff"
+          >
+            Content of first tab
+          </div>
+        </div>
+        <div
+          class="ej-tabs-pane-wrap ej-tabs-pane-wrap-inactive"
+        >
+          <div
+            style="display:flex;align-items:center;justify-content:center;height:250px;background-color:#fff"
+          >
+            Content of second tab
+          </div>
+        </div>
+        <div
+          class="ej-tabs-pane-wrap ej-tabs-pane-wrap-inactive"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/tabs/demo/mutlitabs.md correctly 1`] = `
+<div>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <div
+    class="ej-tabs ej-tabs-horizontal ej-tabs-top"
+  >
+    <div
+      class="ej-tabs-tab-bar-wrap"
+    >
+      <div
+        class="ej-tabs-default-bar ej-tabs-default-bar-animated ej-tabs-default-bar-top"
+        style="background-color:#fff"
+      >
+        <div
+          class="ej-tabs-default-bar-content"
+          style="touch-action:pan-y;transform:translate3d(0%, 0px, 0px);-webkit-transform:translate3d(0%, 0px, 0px);-moz-transform:translate3d(0%, 0px, 0px)"
+        >
+          <div
+            class="ej-tabs-default-bar-tab ej-tabs-default-bar-tab-active"
+            style="width:20%"
+          >
+            1st Tab
+          </div>
+          <div
+            class="ej-tabs-default-bar-tab"
+            style="width:20%"
+          >
+            2nd Tab
+          </div>
+          <div
+            class="ej-tabs-default-bar-tab"
+            style="width:20%"
+          >
+            3rd Tab
+          </div>
+          <div
+            class="ej-tabs-default-bar-tab"
+            style="width:20%"
+          >
+            4th Tab
+          </div>
+          <div
+            class="ej-tabs-default-bar-tab"
+            style="width:20%"
+          >
+            5th Tab
+          </div>
+          <div
+            class="ej-tabs-default-bar-tab"
+            style="width:20%"
+          >
+            6th Tab
+          </div>
+          <div
+            class="ej-tabs-default-bar-tab"
+            style="width:20%"
+          >
+            7th Tab
+          </div>
+          <div
+            class="ej-tabs-default-bar-tab"
+            style="width:20%"
+          >
+            8th Tab
+          </div>
+          <div
+            class="ej-tabs-default-bar-tab"
+            style="width:20%"
+          >
+            9th Tab
+          </div>
+          <div
+            class="ej-tabs-default-bar-underline"
+            style="width:20%;left:0%"
+          />
+        </div>
+        <div
+          class="ej-tabs-default-bar-nextpage"
+        />
+      </div>
+    </div>
+    <div
+      class="ej-tabs-content-wrap ej-tabs-content-wrap-animated"
+      style="touch-action:pan-x pan-y;transform:translate3d(0%, 0px, 1px);-webkit-transform:translate3d(0%, 0px, 1px);-moz-transform:translate3d(0%, 0px, 1px)"
+    >
+      <div
+        class="ej-tabs-pane-wrap ej-tabs-pane-wrap-active"
+      >
+        <div
+          style="display:flex;align-items:center;justify-content:center;height:150px;background-color:#fff"
+        >
+          <p>
+            Content of 1st Tab
+          </p>
+        </div>
+      </div>
+      <div
+        class="ej-tabs-pane-wrap ej-tabs-pane-wrap-inactive"
+      >
+        <div
+          style="display:flex;align-items:center;justify-content:center;height:150px;background-color:#fff"
+        >
+          <p>
+            Content of 2nd Tab
+          </p>
+        </div>
+      </div>
+      <div
+        class="ej-tabs-pane-wrap ej-tabs-pane-wrap-inactive"
+      />
+      <div
+        class="ej-tabs-pane-wrap ej-tabs-pane-wrap-inactive"
+      />
+      <div
+        class="ej-tabs-pane-wrap ej-tabs-pane-wrap-inactive"
+      />
+      <div
+        class="ej-tabs-pane-wrap ej-tabs-pane-wrap-inactive"
+      />
+      <div
+        class="ej-tabs-pane-wrap ej-tabs-pane-wrap-inactive"
+      />
+      <div
+        class="ej-tabs-pane-wrap ej-tabs-pane-wrap-inactive"
+      />
+      <div
+        class="ej-tabs-pane-wrap ej-tabs-pane-wrap-inactive"
+      />
+    </div>
+  </div>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+</div>
+`;
+
+exports[`renders ./components/tabs/demo/noanim.md correctly 1`] = `
+<div>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <div
+    class="ej-tabs ej-tabs-horizontal ej-tabs-top"
+  >
+    <div
+      class="ej-tabs-tab-bar-wrap"
+    >
+      <div
+        class="ej-tabs-default-bar ej-tabs-default-bar-top"
+        style="background-color:#fff"
+      >
+        <div
+          class="ej-tabs-default-bar-content"
+          style="touch-action:pan-y"
+        >
+          <div
+            class="ej-tabs-default-bar-tab"
+            style="width:33.333333333333336%"
+          >
+            First Tab
+          </div>
+          <div
+            class="ej-tabs-default-bar-tab"
+            style="width:33.333333333333336%"
+          >
+            Second Tab
+          </div>
+          <div
+            class="ej-tabs-default-bar-tab ej-tabs-default-bar-tab-active"
+            style="width:33.333333333333336%"
+          >
+            Third Tab
+          </div>
+          <div
+            class="ej-tabs-default-bar-underline"
+            style="width:33.333333333333336%;left:66.66666666666667%"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="ej-tabs-content-wrap"
+      style="touch-action:pan-x pan-y;position:relative;left:-200%"
+    >
+      <div
+        class="ej-tabs-pane-wrap ej-tabs-pane-wrap-inactive"
+      />
+      <div
+        class="ej-tabs-pane-wrap ej-tabs-pane-wrap-inactive"
+      >
+        <div
+          style="display:flex;align-items:center;justify-content:center;height:250px;background-color:#fff"
+        >
+          Content of second tab
+        </div>
+      </div>
+      <div
+        class="ej-tabs-pane-wrap ej-tabs-pane-wrap-active"
+      >
+        <div
+          style="display:flex;align-items:center;justify-content:center;height:250px;background-color:#fff"
+        >
+          Content of third tab
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+</div>
+`;
+
+exports[`renders ./components/tabs/demo/sticky.md correctly 1`] = `
+<div>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <div>
+    <div
+      class="ej-tabs ej-tabs-horizontal ej-tabs-top"
+    >
+      <div
+        class="ej-tabs-tab-bar-wrap"
+      >
+        <div>
+          <div />
+          <div
+            style="z-index:1"
+          >
+            <div
+              class="ej-tabs-default-bar ej-tabs-default-bar-animated ej-tabs-default-bar-top"
+              style="background-color:#fff"
+            >
+              <div
+                class="ej-tabs-default-bar-content"
+                style="touch-action:pan-y"
+              >
+                <div
+                  class="ej-tabs-default-bar-tab ej-tabs-default-bar-tab-active"
+                  style="width:33.333333333333336%"
+                >
+                  First Tab
+                </div>
+                <div
+                  class="ej-tabs-default-bar-tab"
+                  style="width:33.333333333333336%"
+                >
+                  Second Tab
+                </div>
+                <div
+                  class="ej-tabs-default-bar-tab"
+                  style="width:33.333333333333336%"
+                >
+                  Third Tab
+                </div>
+                <div
+                  class="ej-tabs-default-bar-underline"
+                  style="width:33.333333333333336%;left:0%"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ej-tabs-content-wrap ej-tabs-content-wrap-animated"
+        style="touch-action:pan-x pan-y;transform:translate3d(0%, 0px, 1px);-webkit-transform:translate3d(0%, 0px, 1px);-moz-transform:translate3d(0%, 0px, 1px)"
+      >
+        <div
+          class="ej-tabs-pane-wrap ej-tabs-pane-wrap-active"
+        >
+          <div
+            style="display:flex;align-items:center;justify-content:center;height:250px;background-color:#fff"
+          >
+            Content of first tab
+          </div>
+        </div>
+        <div
+          class="ej-tabs-pane-wrap ej-tabs-pane-wrap-inactive"
+        >
+          <div
+            style="display:flex;align-items:center;justify-content:center;height:250px;background-color:#fff"
+          >
+            Content of second tab
+          </div>
+        </div>
+        <div
+          class="ej-tabs-pane-wrap ej-tabs-pane-wrap-inactive"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+</div>
+`;
+
+exports[`renders ./components/tabs/demo/vertical.md correctly 1`] = `
+<div
+  style="height:200px"
+>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <div
+    class="ej-tabs ej-tabs-vertical ej-tabs-left"
+  >
+    <div
+      class="ej-tabs-tab-bar-wrap"
+    >
+      <div
+        class="ej-tabs-default-bar ej-tabs-default-bar-animated ej-tabs-default-bar-left"
+        style="background-color:#fff"
+      >
+        <div
+          class="ej-tabs-default-bar-content"
+          style="touch-action:pan-x"
+        >
+          <div
+            class="ej-tabs-default-bar-tab ej-tabs-default-bar-tab-active"
+            style="height:33.333333333333336%"
+          >
+            1 Tab
+          </div>
+          <div
+            class="ej-tabs-default-bar-tab"
+            style="height:33.333333333333336%"
+          >
+            2 Tab
+          </div>
+          <div
+            class="ej-tabs-default-bar-tab"
+            style="height:33.333333333333336%"
+          >
+            3 Tab
+          </div>
+          <div
+            class="ej-tabs-default-bar-underline"
+            style="height:33.333333333333336%;top:0%"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="ej-tabs-content-wrap ej-tabs-content-wrap-animated"
+      style="touch-action:pan-x pan-y;transform:translate3d(0px, 0%, 1px);-webkit-transform:translate3d(0px, 0%, 1px);-moz-transform:translate3d(0px, 0%, 1px)"
+    >
+      <div
+        class="ej-tabs-pane-wrap ej-tabs-pane-wrap-active"
+      >
+        <div
+          style="display:flex;align-items:center;justify-content:center;height:250px;background-color:#fff"
+        >
+          Content of first tab
+        </div>
+      </div>
+      <div
+        class="ej-tabs-pane-wrap ej-tabs-pane-wrap-inactive"
+      >
+        <div
+          style="display:flex;align-items:center;justify-content:center;height:250px;background-color:#fff"
+        >
+          Content of second tab
+        </div>
+      </div>
+      <div
+        class="ej-tabs-pane-wrap ej-tabs-pane-wrap-inactive"
+      />
+    </div>
+  </div>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+</div>
+`;

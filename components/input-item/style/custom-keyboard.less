@@ -1,0 +1,165 @@
+@import '../../style/mixins';
+@import '../../style/themes/default';
+
+@listPrefixCls: ej-list;
+@inputPrefixCls: ej-input;
+@keyboardPrefixCls: ej-number-keyboard;
+
+.@{listPrefixCls}-item {
+  .@{inputPrefixCls}-control {
+    .fake-input-container {
+      height: 30px;
+      line-height: 30px;
+      position: relative;
+
+      .fake-input {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        margin-right: 5px;
+        text-decoration: rtl;
+        text-align: right;
+        color: #000;
+        font-size: 17px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+
+        &.fake-input-disabled {
+          color: @ej-color-text-disabled;
+        }
+
+        &.focus {
+          transition: color .2s;
+
+          &:after {
+            content: "";
+            position: absolute;
+            right: 0;
+            top: 10%;
+            height: 80%;
+            border-right: 1.5px solid @ej-color-keyboard-confirm;
+            animation: keyboard-cursor infinite 1s step-start;
+          }
+        }
+      }
+
+      .fake-input-placeholder {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        color: @ej-color-text-placeholder;
+        text-align: right;
+      }
+      &-left {
+        .fake-input {
+          text-align: left;
+          &.focus:after {
+            position: relative;
+          }
+        }
+        .fake-input-placeholder {
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+
+.@{keyboardPrefixCls}-wrapper {
+  &.@{keyboardPrefixCls}-wrapper-hide {
+    bottom: -500px;
+  }
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 200px;
+  z-index: 10000;
+  font-family: 'PingFang SC';
+  background-color: #f6f6f7;
+  transition-duration: 0.2s;
+  transition-property: transform display;
+  transform: translateZ(0);
+
+  table {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-collapse: collapse;
+    .mixin-hairline('top');
+
+    tr {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+
+      .@{keyboardPrefixCls}-item {
+        width: 25%;
+        padding: 0;
+        margin: 0;
+        height: 50px;
+        text-align: center;
+        &:not(.keyboard-confirm) {
+          .mixin-hairline('left');
+          .mixin-hairline('bottom');
+        }
+        font-size: 25.5px;
+        color: #2a2b2c;
+        position: relative;
+
+        &.@{keyboardPrefixCls}-item-active {
+          background-color: @ej-fill-tap;
+        }
+
+        &.keyboard-confirm {
+          color: #fff;
+          font-size: 21px;
+          background-color: @ej-color-keyboard-confirm;
+          .mixin-hairline('bottom');
+          &.@{keyboardPrefixCls}-item-active {
+            background-color: @ej-color-keyboard-confirm-tap;
+          }
+
+          &.@{keyboardPrefixCls}-item-disabled {
+            background-color: @ej-color-keyboard-confirm-tap;
+            color: rgba(255, 255, 255, 0.45);
+          }
+        }
+
+        &.keyboard-delete {
+          .encoded-svg-background('input_item_kb_backspace');
+          background-size: 25.5px 18.5px;
+          background-position: 50% 50%;
+          background-repeat: no-repeat;
+        }
+
+        &.keyboard-hide {
+          .encoded-svg-background('input_item_kb_hide');
+          background-size: 32.5px 23.5px;
+          background-position: 50% 50%;
+          background-repeat: no-repeat;
+        }
+      }
+    }
+  }
+}
+
+@keyframes keyboard-cursor {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

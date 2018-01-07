@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu level 1 renders correctly 1`] = `
+<div
+  class="ej-flexbox ej-menu ej-flexbox-dir-column ej-flexbox-align-stretch"
+>
+  <div
+    class="ej-flexbox ej-menu-select-container ej-flexbox-align-start"
+  >
+    <div
+      aria-hidden="false"
+      class="ej-flexbox-item ej-menu-select-container-submenu"
+      role="tabpanel"
+    >
+      <div
+        class="ej-list ej-sub-menu"
+        style="padding-top:0"
+      >
+        <div
+          class="ej-list-body"
+        >
+          <div
+            class="ej-list-item ej-radio-item ej-list-item-middle"
+          >
+            <div
+              class="ej-list-line"
+            >
+              <div
+                class="ej-list-content"
+              >
+                Item1
+              </div>
+              <div
+                class="ej-list-extra"
+              >
+                <label
+                  class="ej-radio-wrapper"
+                >
+                  <span
+                    class="ej-radio"
+                  >
+                    <input
+                      class="ej-radio-input"
+                      type="radio"
+                    />
+                    <span
+                      class="ej-radio-inner"
+                    />
+                  </span>
+                </label>
+              </div>
+            </div>
+            <div
+              class="ej-list-ripple"
+              style="display:none"
+            />
+          </div>
+          <div
+            class="ej-list-item ej-radio-item ej-list-item-middle"
+          >
+            <div
+              class="ej-list-line"
+            >
+              <div
+                class="ej-list-content"
+              >
+                Item2
+              </div>
+              <div
+                class="ej-list-extra"
+              >
+                <label
+                  class="ej-radio-wrapper"
+                >
+                  <span
+                    class="ej-radio"
+                  >
+                    <input
+                      class="ej-radio-input"
+                      type="radio"
+                    />
+                    <span
+                      class="ej-radio-inner"
+                    />
+                  </span>
+                </label>
+              </div>
+            </div>
+            <div
+              class="ej-list-ripple"
+              style="display:none"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Menu renders correctly 1`] = `
+<div
+  class="ej-flexbox ej-menu ej-flexbox-dir-column ej-flexbox-align-stretch"
+>
+  <div
+    class="ej-flexbox ej-menu-select-container ej-flexbox-align-start"
+  >
+    <div
+      class="ej-flexbox-item"
+    >
+      <div
+        class="ej-list"
+        role="tablist"
+      >
+        <div
+          class="ej-list-body"
+        >
+          <div
+            aria-selected="true"
+            class="ej-list-item ej-menu-selected ej-list-item-middle"
+            role="tab"
+          >
+            <div
+              class="ej-list-line"
+            >
+              <div
+                class="ej-list-content"
+              >
+                Item1
+              </div>
+            </div>
+            <div
+              class="ej-list-ripple"
+              style="display:none"
+            />
+          </div>
+          <div
+            aria-selected="false"
+            class="ej-list-item ej-list-item-middle"
+            role="tab"
+          >
+            <div
+              class="ej-list-line"
+            >
+              <div
+                class="ej-list-content"
+              >
+                Item2
+              </div>
+            </div>
+            <div
+              class="ej-list-ripple"
+              style="display:none"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      aria-hidden="false"
+      class="ej-flexbox-item ej-menu-select-container-submenu"
+      role="tabpanel"
+    >
+      <div
+        class="ej-list ej-sub-menu"
+        style="padding-top:0"
+      >
+        <div
+          class="ej-list-body"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

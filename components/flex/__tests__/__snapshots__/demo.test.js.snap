@@ -1,0 +1,296 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/flex/demo/basic.md correctly 1`] = `
+<div
+  class="flex-container"
+>
+  <div
+    class="sub-title"
+  >
+    Basic
+  </div>
+  <div
+    class="ej-flexbox ej-flexbox-align-center"
+  >
+    <div
+      class="ej-flexbox-item"
+    >
+      <div
+        class=" placeholder"
+      >
+        Block
+      </div>
+    </div>
+    <div
+      class="ej-flexbox-item"
+    >
+      <div
+        class=" placeholder"
+      >
+        Block
+      </div>
+    </div>
+  </div>
+  <div
+    class="ej-whitespace ej-whitespace-lg"
+  />
+  <div
+    class="ej-flexbox ej-flexbox-align-center"
+  >
+    <div
+      class="ej-flexbox-item"
+    >
+      <div
+        class=" placeholder"
+      >
+        Block
+      </div>
+    </div>
+    <div
+      class="ej-flexbox-item"
+    >
+      <div
+        class=" placeholder"
+      >
+        Block
+      </div>
+    </div>
+    <div
+      class="ej-flexbox-item"
+    >
+      <div
+        class=" placeholder"
+      >
+        Block
+      </div>
+    </div>
+  </div>
+  <div
+    class="ej-whitespace ej-whitespace-lg"
+  />
+  <div
+    class="ej-flexbox ej-flexbox-align-center"
+  >
+    <div
+      class="ej-flexbox-item"
+    >
+      <div
+        class=" placeholder"
+      >
+        Block
+      </div>
+    </div>
+    <div
+      class="ej-flexbox-item"
+    >
+      <div
+        class=" placeholder"
+      >
+        Block
+      </div>
+    </div>
+    <div
+      class="ej-flexbox-item"
+    >
+      <div
+        class=" placeholder"
+      >
+        Block
+      </div>
+    </div>
+    <div
+      class="ej-flexbox-item"
+    >
+      <div
+        class=" placeholder"
+      >
+        Block
+      </div>
+    </div>
+  </div>
+  <div
+    class="ej-whitespace ej-whitespace-lg"
+  />
+  <div
+    class="sub-title"
+  >
+    Wrap
+  </div>
+  <div
+    class="ej-flexbox ej-flexbox-wrap ej-flexbox-align-center"
+  >
+    <div
+      class="inline placeholder"
+    >
+      Block
+    </div>
+    <div
+      class="inline placeholder"
+    >
+      Block
+    </div>
+    <div
+      class="inline placeholder"
+    >
+      Block
+    </div>
+    <div
+      class="inline placeholder"
+    >
+      Block
+    </div>
+    <div
+      class="inline placeholder"
+    >
+      Block
+    </div>
+    <div
+      class="inline placeholder"
+    >
+      Block
+    </div>
+    <div
+      class="inline placeholder"
+    >
+      Block
+    </div>
+  </div>
+  <div
+    class="ej-whitespace ej-whitespace-lg"
+  />
+  <div
+    class="sub-title"
+  >
+    Align
+  </div>
+  <div
+    class="ej-flexbox ej-flexbox-justify-center ej-flexbox-align-center"
+  >
+    <div
+      class="inline placeholder"
+    >
+      Block
+    </div>
+    <div
+      class="inline placeholder"
+    >
+      Block
+    </div>
+    <div
+      class="inline placeholder"
+    >
+      Block
+    </div>
+  </div>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <div
+    class="ej-flexbox ej-flexbox-justify-end ej-flexbox-align-center"
+  >
+    <div
+      class="inline placeholder"
+    >
+      Block
+    </div>
+    <div
+      class="inline placeholder"
+    >
+      Block
+    </div>
+    <div
+      class="inline placeholder"
+    >
+      Block
+    </div>
+  </div>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <div
+    class="ej-flexbox ej-flexbox-justify-between ej-flexbox-align-center"
+  >
+    <div
+      class="inline placeholder"
+    >
+      Block
+    </div>
+    <div
+      class="inline placeholder"
+    >
+      Block
+    </div>
+    <div
+      class="inline placeholder"
+    >
+      Block
+    </div>
+  </div>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <div
+    class="ej-flexbox ej-flexbox-align-start"
+  >
+    <div
+      class="inline placeholder"
+    >
+      Block
+    </div>
+    <div
+      class="inline small placeholder"
+    >
+      Block
+    </div>
+    <div
+      class="inline placeholder"
+    >
+      Block
+    </div>
+  </div>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <div
+    class="ej-flexbox ej-flexbox-align-end"
+  >
+    <div
+      class="inline placeholder"
+    >
+      Block
+    </div>
+    <div
+      class="inline small placeholder"
+    >
+      Block
+    </div>
+    <div
+      class="inline placeholder"
+    >
+      Block
+    </div>
+  </div>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <div
+    class="ej-flexbox ej-flexbox-align-baseline"
+  >
+    <div
+      class="inline placeholder"
+    >
+      Block
+    </div>
+    <div
+      class="inline small placeholder"
+    >
+      Block
+    </div>
+    <div
+      class="inline placeholder"
+    >
+      Block
+    </div>
+  </div>
+</div>
+`;

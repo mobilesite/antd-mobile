@@ -1,0 +1,297 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/calendar/demo/basic.md correctly 1`] = `
+<div>
+  <div
+    class="ej-list calendar-list"
+    style="background-color:white"
+  >
+    <div
+      class="ej-list-body"
+    >
+      <div
+        class="ej-list-item item ej-list-item-middle"
+      >
+        <div
+          class="ej-list-line"
+        >
+          <div
+            class="ej-list-content"
+          >
+            中文
+          </div>
+          <div
+            class="ej-list-extra"
+          >
+            <label
+              class="ej-switch right"
+            >
+              <input
+                checked=""
+                class="ej-switch-checkbox"
+                name=""
+                type="checkbox"
+                value="on"
+              />
+              <div
+                class="checkbox"
+              />
+            </label>
+          </div>
+        </div>
+        <div
+          class="ej-list-ripple"
+          style="display:none"
+        />
+      </div>
+      <div
+        class="ej-list-item ej-list-item-middle"
+      >
+        <div
+          class="ej-list-line"
+        >
+          <div
+            class="ej-list-content"
+          >
+            选择日期区间
+          </div>
+          <div
+            aria-hidden="true"
+            class="ej-list-arrow ej-list-arrow-horizontal"
+          />
+        </div>
+        <div
+          class="ej-list-ripple"
+          style="display:none"
+        />
+      </div>
+      <div
+        class="ej-list-item ej-list-item-middle"
+      >
+        <div
+          class="ej-list-line"
+        >
+          <div
+            class="ej-list-content"
+          >
+            选择日期时间区间
+          </div>
+          <div
+            aria-hidden="true"
+            class="ej-list-arrow ej-list-arrow-horizontal"
+          />
+        </div>
+        <div
+          class="ej-list-ripple"
+          style="display:none"
+        />
+      </div>
+      <div
+        class="ej-list-item ej-list-item-middle"
+      >
+        <div
+          class="ej-list-line"
+        >
+          <div
+            class="ej-list-content"
+          >
+            选择日期
+          </div>
+          <div
+            aria-hidden="true"
+            class="ej-list-arrow ej-list-arrow-horizontal"
+          />
+        </div>
+        <div
+          class="ej-list-ripple"
+          style="display:none"
+        />
+      </div>
+      <div
+        class="ej-list-item ej-list-item-middle"
+      >
+        <div
+          class="ej-list-line"
+        >
+          <div
+            class="ej-list-content"
+          >
+            选择日期时间
+          </div>
+          <div
+            aria-hidden="true"
+            class="ej-list-arrow ej-list-arrow-horizontal"
+          />
+        </div>
+        <div
+          class="ej-list-ripple"
+          style="display:none"
+        />
+      </div>
+      <div
+        class="ej-list-item ej-list-item-middle"
+      >
+        <div
+          class="ej-list-line"
+        >
+          <div
+            class="ej-list-content"
+          >
+            选择日期区间(快捷)
+          </div>
+          <div
+            aria-hidden="true"
+            class="ej-list-arrow ej-list-arrow-horizontal"
+          />
+        </div>
+        <div
+          class="ej-list-ripple"
+          style="display:none"
+        />
+      </div>
+      <div
+        class="ej-list-item ej-list-item-middle"
+      >
+        <div
+          class="ej-list-line"
+        >
+          <div
+            class="ej-list-content"
+          >
+            选择日期时间区间(快捷)
+          </div>
+          <div
+            aria-hidden="true"
+            class="ej-list-arrow ej-list-arrow-horizontal"
+          />
+        </div>
+        <div
+          class="ej-list-ripple"
+          style="display:none"
+        />
+      </div>
+      <div
+        class="ej-list-item ej-list-item-middle"
+      >
+        <div
+          class="ej-list-line"
+        >
+          <div
+            class="ej-list-content"
+          >
+            大行距
+          </div>
+          <div
+            aria-hidden="true"
+            class="ej-list-arrow ej-list-arrow-horizontal"
+          />
+        </div>
+        <div
+          class="ej-list-ripple"
+          style="display:none"
+        />
+      </div>
+      <div
+        class="ej-list-item ej-list-item-middle"
+      >
+        <div
+          class="ej-list-line"
+        >
+          <div
+            class="ej-list-content"
+          >
+            不无限滚动
+          </div>
+          <div
+            aria-hidden="true"
+            class="ej-list-arrow ej-list-arrow-horizontal"
+          />
+        </div>
+        <div
+          class="ej-list-ripple"
+          style="display:none"
+        />
+      </div>
+      <div
+        class="ej-list-item ej-list-item-middle"
+      >
+        <div
+          class="ej-list-line"
+        >
+          <div
+            class="ej-list-content"
+          >
+            水平进入
+          </div>
+          <div
+            aria-hidden="true"
+            class="ej-list-arrow ej-list-arrow-horizontal"
+          />
+        </div>
+        <div
+          class="ej-list-ripple"
+          style="display:none"
+        />
+      </div>
+      <div
+        class="ej-list-item ej-list-item-middle"
+      >
+        <div
+          class="ej-list-line"
+        >
+          <div
+            class="ej-list-content"
+          >
+            默认选择范围
+          </div>
+          <div
+            aria-hidden="true"
+            class="ej-list-arrow ej-list-arrow-horizontal"
+          />
+        </div>
+        <div
+          class="ej-list-ripple"
+          style="display:none"
+        />
+      </div>
+      <div
+        class="ej-list-item ej-list-item-middle"
+      >
+        <div
+          class="ej-list-line"
+        >
+          <div
+            class="ej-list-content"
+          >
+            onSelect API
+          </div>
+          <div
+            aria-hidden="true"
+            class="ej-list-arrow ej-list-arrow-horizontal"
+          />
+        </div>
+        <div
+          class="ej-list-ripple"
+          style="display:none"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="ej-calendar"
+  >
+    <span>
+      <div
+        class="mask animate"
+        style="display:none"
+      />
+    </span>
+    <span>
+      <div
+        class="content animate"
+        style="display:none"
+      />
+    </span>
+  </div>
+</div>
+`;

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoticeBar renders correctly 1`] = `
+<div
+  class="ej-notice-bar"
+  role="alert"
+>
+  <div
+    aria-hidden="true"
+    class="ej-notice-bar-icon"
+  >
+    <svg
+      class="ej-icon ej-icon-voice ej-icon-xxs"
+    >
+      <use
+        href="#voice"
+      />
+    </svg>
+  </div>
+  <div
+    class="ej-notice-bar-content"
+  >
+    <div
+      class="ej-notice-bar-marquee-wrap "
+      role="marquee"
+      style="overflow:hidden"
+    >
+      <div
+        class="ej-notice-bar-marquee"
+        style="position:relative;right:0;white-space:nowrap;display:inline-block"
+      >
+        foo 
+      </div>
+    </div>
+  </div>
+</div>
+`;

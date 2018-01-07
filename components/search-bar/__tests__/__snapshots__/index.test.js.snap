@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar renders correctly 1`] = `
+<form
+  action="#"
+  class="ej-search"
+>
+  <div
+    class="ej-search-input"
+  >
+    <div
+      class="ej-search-synthetic-ph"
+    >
+      <span
+        class="ej-search-synthetic-ph-container"
+      >
+        <i
+          class="ej-search-synthetic-ph-icon"
+        />
+        <span
+          class="ej-search-synthetic-ph-placeholder"
+          style="visibility:visible"
+        >
+          搜索
+        </span>
+      </span>
+    </div>
+    <input
+      class="ej-search-value"
+      placeholder="搜索"
+      type="search"
+      value=""
+    />
+    <a
+      class="ej-search-clear"
+    />
+  </div>
+  <div
+    class="ej-search-cancel"
+  >
+    取消
+  </div>
+</form>
+`;

@@ -1,0 +1,57 @@
+@import '../../style/mixins';
+@import '../../style/themes/default';
+
+@toastPrefixCls: ej-toast;
+
+.@{toastPrefixCls} {
+  position: fixed;
+  width: 100%;
+  z-index: @ej-z-index-toast;
+  font-size: @ej-font-size-base;
+  text-align: center;
+
+  > span {
+    max-width: 50%;
+  }
+
+  &&-mask {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    top: 0;
+  }
+
+  &&-nomask {
+    position: fixed;
+    max-width: 50%;
+    width: auto;
+    left: 50%;
+    top: 50%;
+
+    .@{toastPrefixCls}-notice {
+      transform: translateX(-50%) translateY(-50%);
+    }
+  }
+
+  &-notice-content {
+    .@{toastPrefixCls}-text {
+      min-width: 60px;
+      border-radius: @ej-radius-sm;
+      color: @ej-color-text-base-inverse;
+      background-color: @ej-fill-toast;
+      line-height: @ej-line-height-paragraph;
+      padding: @ej-spacing-v-md @ej-spacing-h-lg;
+
+      &.@{toastPrefixCls}-text-icon {
+        border-radius: @ej-radius-md;
+        padding: @ej-spacing-v-lg @ej-spacing-h-lg;
+
+        .@{toastPrefixCls}-text-info {
+          margin-top: @ej-spacing-v-sm;
+        }
+      }
+    }
+  }
+}

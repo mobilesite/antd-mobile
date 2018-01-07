@@ -1,0 +1,63 @@
+@import '../../style/themes/default';
+@import '../../style/mixins';
+
+@segment-prefix-cls: ej-segment;
+
+.@{segment-prefix-cls} {
+  display: flex;
+  border-radius: @ej-radius-md;
+  overflow: hidden;
+  min-height: @segmented-control-height;
+  opacity: 1;
+
+  &&-disabled {
+    opacity: 0.5;
+  }
+
+  &-item {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: @segmented-control-color;
+    font-size: @ej-font-size-base;
+    line-height: @ej-line-height-base;
+    transition: background .2s;
+    position: relative;
+    border: @ej-border-width-md solid @segmented-control-color;
+    width: 100%;
+    box-sizing: border-box;
+    border-left-width: 0;
+
+    &-tintcolor {
+      border-color: @segmented-control-color;
+    }
+
+    &:first-child {
+      border-left-width: @ej-border-width-md;
+      border-radius: @ej-radius-md 0 0 @ej-radius-md;
+    }
+
+    &:last-child {
+      border-radius: 0 @ej-radius-md @ej-radius-md 0;
+    }
+
+    &-selected {
+      background: @segmented-control-color;
+      color: @ej-color-text-base-inverse;
+    }
+
+    &-active {
+      .@{segment-prefix-cls}-item-inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0.1;
+        transition: background .2s;
+        background-color: @segmented-control-color;
+      }
+    }
+  }
+}

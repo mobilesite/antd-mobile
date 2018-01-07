@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/locale-provider/demo/basic.md correctly 1`] = `
+<div
+  class="ej-wingblank ej-wingblank-lg"
+>
+  <div
+    class="ej-segment"
+    role="tablist"
+  >
+    <div
+      aria-disabled="false"
+      aria-selected="true"
+      class="ej-segment-item ej-segment-item-selected"
+      role="tab"
+      style="color:#fff;background-color:;border-color:"
+    >
+      <div
+        class="ej-segment-item-inner"
+      />
+      切换到英文
+    </div>
+    <div
+      aria-disabled="false"
+      aria-selected="false"
+      class="ej-segment-item"
+      role="tab"
+      style="color:;background-color:transparent;border-color:"
+    >
+      <div
+        class="ej-segment-item-inner"
+      />
+      Change to Chinese
+    </div>
+  </div>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <div>
+    <div
+      class="ej-pagination"
+    >
+      <div
+        class="ej-flexbox ej-flexbox-align-center"
+      >
+        <div
+          class="ej-flexbox-item ej-pagination-wrap-btn ej-pagination-wrap-btn-prev"
+        >
+          <a
+            aria-disabled="true"
+            class="ej-button ej-button-inline ej-button-disabled"
+            role="button"
+          >
+            <span>
+              Prev
+            </span>
+          </a>
+        </div>
+        <div
+          aria-live="assertive"
+          class="ej-flexbox-item ej-pagination-wrap"
+        >
+          <span
+            class="active"
+          >
+            1
+          </span>
+          /
+          <span>
+            5
+          </span>
+        </div>
+        <div
+          class="ej-flexbox-item ej-pagination-wrap-btn ej-pagination-wrap-btn-next"
+        >
+          <a
+            aria-disabled="false"
+            class="ej-button ej-button-inline"
+            role="button"
+          >
+            <span>
+              Next
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ej-whitespace ej-whitespace-md"
+    />
+    <div
+      class="ej-list date-picker-list"
+      style="background-color:white"
+    >
+      <div
+        class="ej-list-body"
+      >
+        <div>
+          <div
+            class="ej-list-item ej-list-item-middle"
+          >
+            <div
+              class="ej-list-line"
+            >
+              <div
+                class="ej-list-content"
+              >
+                datePicker
+              </div>
+              <div
+                class="ej-list-extra"
+              >
+                please select
+              </div>
+              <div
+                aria-hidden="true"
+                class="ej-list-arrow ej-list-arrow-horizontal"
+              />
+            </div>
+            <div
+              class="ej-list-ripple"
+              style="display:none"
+            />
+          </div>
+        </div>
+        <div>
+          <div
+            class="ej-list-item ej-list-item-middle"
+          >
+            <div
+              class="ej-list-line"
+            >
+              <div
+                class="ej-list-content"
+              >
+                picker
+              </div>
+              <div
+                class="ej-list-extra"
+              >
+                请选择
+              </div>
+              <div
+                aria-hidden="true"
+                class="ej-list-arrow ej-list-arrow-horizontal"
+              />
+            </div>
+            <div
+              class="ej-list-ripple"
+              style="display:none"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ej-whitespace ej-whitespace-md"
+    />
+    <div
+      class="ej-list-item ej-input-item ej-list-item-middle"
+    >
+      <div
+        class="ej-list-line"
+      >
+        <div
+          class="ej-input-control"
+        >
+          <div
+            class="fake-input-container"
+          >
+            <div
+              class="fake-input-placeholder"
+            >
+              money input
+            </div>
+            <div
+              class="fake-input"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ej-whitespace ej-whitespace-md"
+    />
+    <form
+      action="#"
+      class="ej-search"
+    >
+      <div
+        class="ej-search-input"
+      >
+        <div
+          class="ej-search-synthetic-ph"
+        >
+          <span
+            class="ej-search-synthetic-ph-container"
+          >
+            <i
+              class="ej-search-synthetic-ph-icon"
+            />
+            <span
+              class="ej-search-synthetic-ph-placeholder"
+              style="visibility:visible"
+            >
+              Search
+            </span>
+          </span>
+        </div>
+        <input
+          class="ej-search-value"
+          placeholder="Search"
+          type="search"
+          value=""
+        />
+        <a
+          class="ej-search-clear"
+        />
+      </div>
+      <div
+        class="ej-search-cancel ej-search-cancel-show"
+      >
+        取消
+      </div>
+    </form>
+  </div>
+</div>
+`;

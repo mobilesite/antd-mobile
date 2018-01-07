@@ -1,0 +1,344 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/textarea-item/demo/basic.md correctly 1`] = `
+<div>
+  <div
+    class="ej-list"
+  >
+    <div
+      class="ej-list-header"
+    >
+      Customize to focus
+    </div>
+    <div
+      class="ej-list-body"
+    >
+      <div
+        class="ej-list-item ej-textarea-item"
+      >
+        <div
+          class="ej-textarea-label ej-textarea-label-5"
+        >
+          标题
+        </div>
+        <div
+          class="ej-textarea-control"
+        >
+          <textarea
+            data-seed="logId"
+            placeholder="auto focus in Alipay client"
+            rows="1"
+          />
+        </div>
+      </div>
+      <div
+        class="ej-list-item ej-textarea-item"
+      >
+        <div
+          class="ej-textarea-label ej-textarea-label-5"
+        >
+          标题
+        </div>
+        <div
+          class="ej-textarea-control"
+        >
+          <textarea
+            data-seed="logId"
+            placeholder="click the button below to focus"
+            rows="1"
+          />
+        </div>
+      </div>
+      <div
+        class="ej-list-item ej-list-item-middle"
+      >
+        <div
+          class="ej-list-line"
+        >
+          <div
+            class="ej-list-content"
+          >
+            <div
+              style="width:100%;color:#108ee9;text-align:center"
+            >
+              click to focus
+            </div>
+          </div>
+        </div>
+        <div
+          class="ej-list-ripple"
+          style="display:none"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="ej-list"
+  >
+    <div
+      class="ej-list-header"
+    >
+      Whether is controlled
+    </div>
+    <div
+      class="ej-list-body"
+    >
+      <div
+        class="ej-list-item ej-textarea-item ej-textarea-item-single-line"
+      >
+        <div
+          class="ej-textarea-label ej-textarea-label-5"
+        >
+          受控组件
+        </div>
+        <div
+          class="ej-textarea-control"
+        >
+          <textarea
+            placeholder="controlled"
+            rows="1"
+          />
+        </div>
+      </div>
+      <div
+        class="ej-list-item ej-textarea-item ej-textarea-item-single-line"
+      >
+        <div
+          class="ej-textarea-label ej-textarea-label-5"
+        >
+          非受控组件
+        </div>
+        <div
+          class="ej-textarea-control"
+        >
+          <textarea
+            placeholder="please input content"
+            rows="1"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="ej-list"
+  >
+    <div
+      class="ej-list-header"
+    >
+      Auto / Fixed height
+    </div>
+    <div
+      class="ej-list-body"
+    >
+      <div
+        class="ej-list-item ej-textarea-item"
+      >
+        <div
+          class="ej-textarea-label ej-textarea-label-5"
+        >
+          高度自适应
+        </div>
+        <div
+          class="ej-textarea-control"
+        >
+          <textarea
+            placeholder=""
+            rows="1"
+          />
+        </div>
+      </div>
+      <div
+        class="ej-list-item ej-textarea-item"
+      >
+        <div
+          class="ej-textarea-control"
+        >
+          <textarea
+            placeholder="fixed number of lines"
+            rows="3"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="ej-list"
+  >
+    <div
+      class="ej-list-header"
+    >
+      Show clear
+    </div>
+    <div
+      class="ej-list-body"
+    >
+      <div
+        class="ej-list-item ej-textarea-item ej-textarea-item-single-line"
+      >
+        <div
+          class="ej-textarea-label ej-textarea-label-5"
+        >
+          标题
+        </div>
+        <div
+          class="ej-textarea-control"
+        >
+          <textarea
+            placeholder="displayed clear while typing"
+            rows="1"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="ej-list"
+  >
+    <div
+      class="ej-list-header"
+    >
+      Custom title（text / image / empty）
+    </div>
+    <div
+      class="ej-list-body"
+    >
+      <div
+        class="ej-list-item ej-textarea-item ej-textarea-item-single-line"
+      >
+        <div
+          class="ej-textarea-label ej-textarea-label-5"
+        >
+          <img
+            alt=""
+            src="https://gw.alipayobjects.com/zos/rmsportal/nywPmnTAvTmLusPxHPSu.png"
+            style="width:28px;height:28px"
+          />
+        </div>
+        <div
+          class="ej-textarea-control"
+        >
+          <textarea
+            placeholder="title can be customized"
+            rows="1"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="ej-list"
+  >
+    <div
+      class="ej-list-header"
+    >
+      Limited value length
+    </div>
+    <div
+      class="ej-list-body"
+    >
+      <div
+        class="ej-list-item ej-textarea-item ej-textarea-item-single-line"
+      >
+        <div
+          class="ej-textarea-control"
+        >
+          <textarea
+            maxlength="10"
+            placeholder="can enter up to 10 characters"
+            rows="1"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="ej-list"
+  >
+    <div
+      class="ej-list-header"
+    >
+      Count
+    </div>
+    <div
+      class="ej-list-body"
+    >
+      <div
+        class="ej-list-item ej-textarea-item"
+      >
+        <div
+          class="ej-textarea-control"
+        >
+          <textarea
+            maxlength="100"
+            placeholder=""
+            rows="5"
+          >
+            计数功能,我的意见是...
+          </textarea>
+        </div>
+        <span
+          class="ej-textarea-count"
+        >
+          <span>
+            13
+          </span>
+          /100
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="ej-list"
+  >
+    <div
+      class="ej-list-header"
+    >
+      Not editable / Disabled
+    </div>
+    <div
+      class="ej-list-body"
+    >
+      <div
+        class="ej-list-item ej-textarea-item ej-textarea-item-single-line"
+      >
+        <div
+          class="ej-textarea-label ej-textarea-label-5"
+        >
+          姓名
+        </div>
+        <div
+          class="ej-textarea-control"
+        >
+          <textarea
+            placeholder=""
+            readonly=""
+            rows="1"
+          >
+            not editable
+          </textarea>
+        </div>
+      </div>
+      <div
+        class="ej-list-item ej-textarea-item ej-textarea-disabled ej-textarea-item-single-line"
+      >
+        <div
+          class="ej-textarea-label ej-textarea-label-5"
+        >
+          姓名
+        </div>
+        <div
+          class="ej-textarea-control"
+        >
+          <textarea
+            disabled=""
+            placeholder=""
+            rows="1"
+          >
+            disabled style
+          </textarea>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

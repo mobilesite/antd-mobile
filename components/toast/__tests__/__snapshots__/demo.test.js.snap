@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/toast/demo/basic.md correctly 1`] = `
+<div
+  class="ej-wingblank ej-wingblank-lg"
+>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <a
+    aria-disabled="false"
+    class="ej-button"
+    role="button"
+  >
+    <span>
+      text only
+    </span>
+  </a>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <a
+    aria-disabled="false"
+    class="ej-button"
+    role="button"
+  >
+    <span>
+      without mask
+    </span>
+  </a>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <a
+    aria-disabled="false"
+    class="ej-button"
+    role="button"
+  >
+    <span>
+      cumstom icon
+    </span>
+  </a>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <a
+    aria-disabled="false"
+    class="ej-button"
+    role="button"
+  >
+    <span>
+      success
+    </span>
+  </a>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <a
+    aria-disabled="false"
+    class="ej-button"
+    role="button"
+  >
+    <span>
+      fail
+    </span>
+  </a>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <a
+    aria-disabled="false"
+    class="ej-button"
+    role="button"
+  >
+    <span>
+      network failure
+    </span>
+  </a>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+  <a
+    aria-disabled="false"
+    class="ej-button"
+    role="button"
+  >
+    <span>
+      loading
+    </span>
+  </a>
+  <div
+    class="ej-whitespace ej-whitespace-md"
+  />
+</div>
+`;

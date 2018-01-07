@@ -1,0 +1,100 @@
+@import '../../style/themes/default';
+@import '../../style/mixins';
+
+@imagePickerPrefixCls: ej-image-picker;
+
+.@{imagePickerPrefixCls} {
+  &-list {
+    padding: @ej-spacing-v-md @ej-spacing-h-md 0;
+    margin-bottom: @ej-spacing-h-lg;
+
+    .ej-flexbox {
+      margin-bottom: @ej-spacing-v-sm;
+
+      .ej-flexbox-item {
+        position: relative;
+        margin-right: @ej-spacing-h-sm;
+        margin-left: 0;
+
+        &:after {
+          display: block;
+          content: ' ';
+          padding-bottom: 100%;
+        }
+
+        &:nth-child(4n) {
+          margin-right: 0;
+        }
+      }
+    }
+
+    .@{imagePickerPrefixCls}-item {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      height: 100%;
+
+      .@{imagePickerPrefixCls}-item-remove {
+        width: @ej-size-icon-xxs;
+        height: @ej-size-icon-xxs;
+        position: absolute;
+        right: 6px;
+        top: 6px;
+        text-align: right;
+        vertical-align: top;
+        z-index: 2;
+        background-size: @ej-size-icon-xxs auto;
+        .encoded-svg-background('image_picker_delete');
+      }
+
+      .@{imagePickerPrefixCls}-item-content {
+        height: 100%;
+        width: 100%;
+        border-radius: @ej-radius-sm;
+        background-size: cover;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .@{imagePickerPrefixCls}-upload-btn {
+      box-sizing: border-box;
+      border-radius: @ej-radius-sm;
+      border: @ej-border-width-md solid @ej-color-border-base;
+      background-color: @ej-fill-base;
+
+      &:before,
+      &:after {
+        width: @ej-border-width-md;
+        height: 25px;
+        content: " ";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: @ej-fill-icon-base;
+      }
+
+      &:after {
+        width: 25px;
+        height: @ej-border-width-md;
+      }
+
+      &-active {
+        background-color: @ej-fill-tap;
+      }
+
+      input {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,187 @@
+// 色彩
+// ---
+
+// 全局/品牌色
+@ej-color-primary: #108ee9;
+@ej-color-primary-tap: #0e80d2;
+@ej-color-success: #6abf47;
+@ej-color-warning: #ffc600;
+@ej-color-error: #f4333c;
+@ej-color-important: #ff5b05;  // 用于小红点
+@ej-color-wait: @ej-color-primary;
+
+// 文字色
+@ej-color-text-base: #000;                  // 基本
+@ej-color-text-base-inverse: #fff;          // 基本 - 反色
+@ej-color-text-secondary: #a4a9b0;          // 辅助色
+@ej-color-text-placeholder: #bbb;           // 文本框提示
+@ej-color-text-disabled: #bbb;              // 失效
+@ej-color-text-caption: #888;               // 辅助描述
+@ej-color-text-paragraph: #333;             // 段落
+@ej-color-text-link: @ej-color-primary;       // 链接
+
+// 背景色
+@ej-fill-base: #fff;                           // 组件默认背景
+@ej-fill-body: #f5f5f9;                        // 页面背景
+@ej-fill-tap: #ddd;                            // 组件默认背景 - 按下
+@ej-fill-disabled: #ddd;                       // 通用失效背景
+@ej-fill-mask: rgba(0, 0, 0, 0.4);             // 遮罩背景
+@ej-fill-icon-base: #ccc;                      // 许多小图标的背景，比如一些小圆点，加减号
+@ej-fill-grey: #f7f7f7;
+
+// 透明度
+@ej-opacity-disabled: 0.3;   // switch checkbox radio 等组件禁用的透明度
+
+// 边框色
+@ej-color-border-base: #ddd;
+
+// 字体尺寸
+// ---
+@ej-font-size-icontext: 10px;
+@ej-font-size-caption-sm: 12px;
+@ej-font-size-base: 14px;
+@ej-font-size-subhead: 15px;
+@ej-font-size-caption: 16px;
+@ej-font-size-heading: 17px;
+
+// 圆角
+// ---
+@ej-radius-xs: 2px;
+@ej-radius-sm: 3px;
+@ej-radius-md: 5px;
+@ej-radius-lg: 7px;
+@ej-radius-circle: 50%;
+
+// 边框尺寸
+// ---
+@ej-border-width-sm: 1px;
+@ej-border-width-md: 1px;
+@ej-border-width-lg: 2px;
+
+// 间距
+// ---
+// 水平间距
+@ej-spacing-h-sm: 5px;
+@ej-spacing-h-md: 8px;
+@ej-spacing-h-lg: 15px;
+
+// 垂直间距
+@ej-spacing-v-xs: 3px;
+@ej-spacing-v-sm: 6px;
+@ej-spacing-v-md: 9px;
+@ej-spacing-v-lg: 15px;
+@ej-spacing-v-xl: 21px;
+
+// 高度
+// ---
+@ej-line-height-base: 1;           // 单行行高
+@ej-line-height-paragraph: 1.5;    // 多行行高
+
+// 图标尺寸
+// ---
+@ej-size-icon-xxs: 15px;
+@ej-size-icon-xs: 18px;
+@ej-size-icon-sm: 21px;
+@ej-size-icon-md: 22px;       // 导航条上的图标、grid的图标大小
+@ej-size-icon-lg: 36px;
+
+// 动画缓动
+// ---
+@ej-ease-in-out-quint: cubic-bezier(.86, 0, .07, 1);
+
+// 组件变量
+// ---
+
+@ej-height-actionsheet-item: 50px;
+@ej-font-size-actionsheet-item: 18px;
+
+// button
+@ej-height-button: 47px;
+@button-font-size: 18px;
+
+@ej-height-button-sm: 30px;
+@ej-font-size-button-sm: 13px;
+
+@ej-fill-button-primary: @ej-color-primary;
+@ej-fill-button-primary-tap: @ej-color-primary-tap;
+
+@ej-color-button-ghost: @ej-color-primary;    // 同时应用于背景、文字颜色、边框色
+@ej-fill-button-ghost-tap: fade(@ej-color-primary, 60%);
+
+@ej-fill-button-warning: #e94f4f;
+@ej-fill-button-warning-tap: #d24747;
+
+@ej-fill-button-link-tap: #ddd;
+@ej-font-size-button-link: 16px;
+
+// modal
+@ej-font-size-modal-heading: 18px;
+@ej-font-size-modal-button: 18px; // 按钮字号
+@ej-height-modal-button: 50px; // 按钮高度
+
+// list
+@ej-height-list-title: 30px;
+@ej-height-list-item-sm: 35px;
+@ej-height-list-item: 44px;
+
+// input
+@ej-width-input-label: 17px;       // InputItem、TextareaItem 文字长度基础值
+@ej-font-size-input: 17px;
+@ej-color-input-icon: #ccc; // input clear icon 的背景色
+@ej-color-input-icon-tap: @ej-color-primary;
+
+// tabs
+@ej-color-tabs: @ej-color-primary;
+@ej-height-tabs: 43.5px;
+@ej-font-size-tabs-heading: 15px;
+@ej-height-tabs-ink-bar: @ej-border-width-lg;
+
+// segmented-control
+@segmented-control-color: @ej-color-primary;  // 同时应用于背景、文字颜色、边框色
+@segmented-control-height: 27px;
+@segmented-control-fill-tap: fade(@ej-color-primary, 0.1);
+
+// tab-bar
+@ej-fill-tab-bar: #ebeeef;
+@ej-height-tab-bar: 50px;
+
+// toast
+@ej-fill-toast: rgba(58, 58, 58, 0.9); // toast, activity-indicator 的背景颜色
+
+// search-bar
+@ej-fill-search-bar: #efeff4;
+@ej-height-search-bar: 44px;
+@ej-height-search-bar-input: 28px;
+@ej-font-size-search-bar: 15px;
+@ej-color-search-icon: #bbb; // input search icon 的背景色
+
+// notice-bar
+@ej-fill-notice-bar: #fefcec;
+@ej-height-notice-bar: 36px;
+@ej-color-notice-bar: #f76a24;
+
+// switch
+@ej-fill-switch: #4dd865;
+@ej-fill-switch-android: @ej-color-primary;
+
+// tag
+@ej-height-tag: 25px;
+@ej-height-tag-sm: 15px;
+@ej-color-tag: @ej-color-primary;
+
+// keyboard
+@ej-color-keyboard-confirm: @ej-color-primary;
+@ej-color-keyboard-confirm-tap: @ej-color-primary-tap;
+
+// picker
+@ej-height-option: 42px;           // picker 标题的高度
+
+// z-index
+@ej-z-index-progress: 2000;
+@ej-z-index-popover: 1999;
+@ej-z-index-toast: 1999;
+@ej-z-index-action-sheet: 1000; // actonsheet 会放到 popup / modal 中
+@ej-z-index-picker: 1000;
+@ej-z-index-popup: 999;
+@ej-z-index-modal: 999; // modal.alert 应该最大，其他应该较小
+@ej-z-index-tabs-pagination: 999;

@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/tag/demo/basic.md correctly 1`] = `
+<div
+  class="tag-container"
+>
+  <div
+    class="ej-tag ej-tag-normal"
+    data-seed="logId"
+  >
+    <div
+      class="ej-tag-text"
+    >
+      Basic
+    </div>
+  </div>
+  <div
+    class="ej-tag ej-tag-active"
+  >
+    <div
+      class="ej-tag-text"
+    >
+      Selected
+    </div>
+  </div>
+  <div
+    class="ej-tag ej-tag-disabled"
+  >
+    <div
+      class="ej-tag-text"
+    >
+      Disabled
+    </div>
+  </div>
+  <div
+    class="ej-tag ej-tag-normal"
+  >
+    <div
+      class="ej-tag-text"
+    >
+      Callback
+    </div>
+  </div>
+  <div
+    class="ej-tag ej-tag-normal ej-tag-closable"
+  >
+    <div
+      class="ej-tag-text"
+    >
+      Closable
+    </div>
+    <div
+      aria-label="remove tag"
+      class="ej-tag-close"
+      role="button"
+    >
+      <svg
+        aria-hidden="true"
+        class="ej-icon ej-icon-cross-circle ej-icon-xs"
+      >
+        <use
+          href="#cross-circle"
+        />
+      </svg>
+    </div>
+  </div>
+  <div
+    class="ej-tag ej-tag-normal ej-tag-small"
+  >
+    <div
+      class="ej-tag-text"
+    >
+      Small and Readonly
+    </div>
+  </div>
+</div>
+`;

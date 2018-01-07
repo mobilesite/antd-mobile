@@ -1,0 +1,50 @@
+@import 'variables';
+
+.@{stepsPrefixCls}-small {
+  .@{stepsPrefixCls}-item-icon {
+    width: @smallIconSize;
+    height: @smallIconSize;
+    line-height: @smallIconSize;
+    text-align: center;
+    border-radius: @smallIconSize;
+    font-size: @ej-font-size-base;
+    margin-right: @ej-spacing-h-md;
+    > .@{stepsPrefixCls}-icon {
+      font-size: @ej-font-size-caption-sm;
+      transform: scale(.75);
+      top: -2px;
+    }
+  }
+  .@{stepsPrefixCls}-item-content {
+    margin-top: 0;
+  }
+  .@{stepsPrefixCls}-item-title {
+    font-size: @ej-font-size-caption;
+    margin-bottom: @ej-spacing-v-xs;
+    color: @ej-color-text-base;
+    font-weight: bold;
+  }
+  .@{stepsPrefixCls}-item-description {
+    font-size: @ej-font-size-caption-sm;
+    color: @ej-color-text-placeholder;
+  }
+  .@{stepsPrefixCls}-item-tail {
+    top: 8px;
+    padding: 0 8px;
+    &:after {
+      height: 1px;
+      border-radius: 1px;
+      width: 100%;
+      left: 0;
+    }
+  }
+
+  .@{stepsPrefixCls}-item-custom .@{stepsPrefixCls}-item-icon {
+    background: none;
+    > .@{stepsPrefixCls}-icon {
+      font-size: @smallIconSize;
+      top: -2px;
+      transform: none;
+    }
+  }
+}

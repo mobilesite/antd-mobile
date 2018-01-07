@@ -1,0 +1,47 @@
+@import '../../style/mixins';
+@import '../../style/themes/default';
+
+@resultPrefixCls: ej-result;
+
+.@{resultPrefixCls} {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: @ej-spacing-v-xl;
+  background-color: @ej-fill-base;
+  .mixin-hairline('bottom');
+
+  & &-pic {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    line-height: 60px;
+    background-size: 60px 60px;
+  }
+
+  & &-title,
+  & &-message {
+    font-size: 21px;
+    color: @ej-color-text-base;
+    padding-left: @ej-spacing-h-lg;
+    padding-right: @ej-spacing-h-lg;
+  }
+
+  & &-title {
+    margin-top: @ej-spacing-v-lg;
+    line-height: @ej-line-height-base;
+  }
+
+  & &-message {
+    margin-top: @ej-spacing-v-md;
+    line-height: @ej-line-height-paragraph;
+    font-size: @ej-font-size-caption;
+    color: @ej-color-text-caption;
+  }
+
+  & &-button {
+    padding: 0 @ej-spacing-h-lg;
+    margin-top: @ej-spacing-v-lg;
+  }
+}

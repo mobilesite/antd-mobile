@@ -1,0 +1,105 @@
+@import '../../style/mixins';
+@import '../../style/themes/default';
+
+@listPrefixCls: ej-list;
+@radioWarpPrefixCls: ej-radio;
+@radioInnerPrefixCls: ~"@{radioWarpPrefixCls}-inner";
+
+.@{radioWarpPrefixCls} {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: @ej-size-icon-xxs;
+  height: @ej-size-icon-xxs;
+
+  &-inner {
+    position: absolute;
+    right: 0;
+    width: @ej-size-icon-xxs;
+    height: @ej-size-icon-xxs;
+    box-sizing: border-box;
+    transform: rotate(0deg);
+
+    &:after {
+      position: absolute;
+      display: none;
+      top: -2.5px;
+      right: 5px;
+      z-index: 999;
+      width: 7px;
+      height: 14px;
+      border-style: solid;
+      border-width: 0 1.5px 1.5px 0;
+      content: '\0020';
+      transform: rotate(45deg);
+    }
+  }
+
+  &-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    border: 0 none;
+    appearance: none;
+  }
+
+  &.@{radioWarpPrefixCls}-checked {
+    .@{radioInnerPrefixCls} {
+      border-width: 0;
+
+      &:after {
+        display: block;
+        border-color: @ej-color-primary;
+      }
+    }
+  }
+
+  &.@{radioWarpPrefixCls}-disabled {
+    &.@{radioWarpPrefixCls}-checked {
+      .@{radioInnerPrefixCls} {
+        &:after {
+          display: block;
+          border-color: @ej-color-text-disabled;
+        }
+      }
+    }
+  }
+}
+
+.@{listPrefixCls} {
+  & &-item {
+    &.@{radioWarpPrefixCls}-item {
+      .@{listPrefixCls}-line {
+        .@{listPrefixCls}-extra {
+          flex: 0;
+
+          .@{radioWarpPrefixCls} {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: @ej-height-list-item;
+            overflow: visible;
+
+            &-inner {
+              right: @ej-spacing-v-lg;
+              top: @ej-spacing-h-lg;
+            }
+          }
+        }
+      }
+
+      &.@{radioWarpPrefixCls}-item-disabled {
+        .@{listPrefixCls}-content {
+          color: @ej-color-text-disabled;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,149 @@
+@import '../../style/themes/default';
+@import "../../style/mixins";
+
+@stepperPrefixCls: ej-stepper;
+
+.@{stepperPrefixCls} {
+  position: relative;
+  margin: 0;
+  padding: 2px 0;
+  display: inline-block;
+  box-sizing: content-box;
+  width: 63px;
+  height: 35px;
+  line-height: 35px;
+  font-size: @ej-font-size-base;
+  vertical-align: middle;
+  overflow: hidden;
+
+  &-handler-wrap {
+    position: absolute;
+    width: 100%;
+    font-size: 24px;
+  }
+
+  &-handler,
+  &-handler-up-inner,
+  &-handler-down-inner {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  &-handler {
+    text-align: center;
+    border: @ej-border-width-md solid @ej-color-border-base;
+    border-radius: @ej-radius-md;
+    overflow: hidden;
+    color: @ej-color-text-base;
+    position: absolute;
+    display: inline-block;
+    box-sizing: content-box;
+
+    &-active {
+      z-index: 2;
+      background-color: @ej-fill-tap;
+    }
+  }
+
+  &-handler-up-inner,
+  &-handler-down-inner {
+
+    user-select: none;
+    right: 2px;
+    color: @ej-color-text-base;
+  }
+
+  &-input-wrap {
+    display: none;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  &-input {
+    display: none;
+    width: 60px;
+    font-size: 16px;
+    color: @ej-color-text-base;
+    text-align: center;
+    border: 0;
+    padding: 0;
+    background: none;
+    vertical-align: middle;
+
+    &[disabled] {
+      opacity: 1;
+      color: @ej-color-text-base;
+    }
+  }
+
+  &.showNumber {
+    width: 138px;
+
+    .@{stepperPrefixCls}-input-wrap {
+      display: inline-block;
+    }
+
+    .@{stepperPrefixCls}-input {
+      display: inline-block;
+    }
+
+    .@{stepperPrefixCls}-handler-down-disabled {
+      right: -1px;
+    }
+  }
+
+  &-handler-up {
+    cursor: pointer;
+    right: 0;
+
+    &-inner {
+      &:before {
+        text-align: center;
+        content: "+";
+      }
+    }
+  }
+
+  &-handler-down {
+    cursor: pointer;
+    left: 0;
+
+    &-inner {
+      &:before {
+        text-align: center;
+        content: "-";
+      }
+    }
+  }
+
+  &-handler-down-disabled,
+  &-handler-up-disabled {
+    opacity: @ej-opacity-disabled;
+  }
+
+  &-handler-up-disabled &-handler-active {
+    background: none;
+  }
+
+  &-disabled {
+    .@{stepperPrefixCls}-handler-down,
+    .@{stepperPrefixCls}-handler-up {
+      opacity: @ej-opacity-disabled;
+      background: none;
+    }
+  }
+
+  &-disabled {
+    .@{stepperPrefixCls}-handler {
+      opacity: @ej-opacity-disabled;
+    }
+
+    .@{stepperPrefixCls}-input-wrap {
+      opacity: @ej-opacity-disabled;
+    }
+  }
+}

@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/image-picker/demo/basic.md correctly 1`] = `
+<div
+  class="ej-wingblank ej-wingblank-lg"
+>
+  <div
+    class="ej-segment"
+    role="tablist"
+  >
+    <div
+      aria-disabled="false"
+      aria-selected="true"
+      class="ej-segment-item ej-segment-item-selected"
+      role="tab"
+      style="color:#fff;background-color:;border-color:"
+    >
+      <div
+        class="ej-segment-item-inner"
+      />
+      切换到单选
+    </div>
+    <div
+      aria-disabled="false"
+      aria-selected="false"
+      class="ej-segment-item"
+      role="tab"
+      style="color:;background-color:transparent;border-color:"
+    >
+      <div
+        class="ej-segment-item-inner"
+      />
+      切换到多选
+    </div>
+  </div>
+  <div
+    class="ej-image-picker"
+  >
+    <div
+      class="ej-image-picker-list"
+      role="group"
+    >
+      <div
+        class="ej-flexbox ej-flexbox-align-center"
+      >
+        <div
+          class="ej-flexbox-item"
+        >
+          <div
+            class="ej-image-picker-item"
+          >
+            <div
+              aria-label="Click and Remove this image"
+              class="ej-image-picker-item-remove"
+              role="button"
+            />
+            <div
+              aria-label="Image can be clicked"
+              class="ej-image-picker-item-content"
+              role="button"
+              style="background-image:url(https://zos.alipayobjects.com/rmsportal/PZUUCKTRIHWiZSY.jpeg);transform:rotate(0deg)"
+            />
+          </div>
+        </div>
+        <div
+          class="ej-flexbox-item"
+        >
+          <div
+            class="ej-image-picker-item"
+          >
+            <div
+              aria-label="Click and Remove this image"
+              class="ej-image-picker-item-remove"
+              role="button"
+            />
+            <div
+              aria-label="Image can be clicked"
+              class="ej-image-picker-item-content"
+              role="button"
+              style="background-image:url(https://zos.alipayobjects.com/rmsportal/hqQWgTXdrlmVVYi.jpeg);transform:rotate(0deg)"
+            />
+          </div>
+        </div>
+        <div
+          class="ej-flexbox-item"
+        >
+          <div
+            aria-label="Choose and add image"
+            class="ej-image-picker-item ej-image-picker-upload-btn"
+            role="button"
+          >
+            <input
+              accept="image/*"
+              type="file"
+            />
+          </div>
+        </div>
+        <div
+          class="ej-flexbox-item"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/image-picker/demo/custom.md correctly 1`] = `
+<div>
+  <div
+    class="ej-image-picker"
+  >
+    <div
+      class="ej-image-picker-list"
+      role="group"
+    >
+      <div
+        class="ej-flexbox ej-flexbox-align-center"
+      >
+        <div
+          class="ej-flexbox-item"
+        >
+          <div
+            class="ej-image-picker-item"
+          >
+            <div
+              aria-label="Click and Remove this image"
+              class="ej-image-picker-item-remove"
+              role="button"
+            />
+            <div
+              aria-label="Image can be clicked"
+              class="ej-image-picker-item-content"
+              role="button"
+              style="background-image:url(https://zos.alipayobjects.com/rmsportal/PZUUCKTRIHWiZSY.jpeg);transform:rotate(0deg)"
+            />
+          </div>
+        </div>
+        <div
+          class="ej-flexbox-item"
+        >
+          <div
+            class="ej-image-picker-item"
+          >
+            <div
+              aria-label="Click and Remove this image"
+              class="ej-image-picker-item-remove"
+              role="button"
+            />
+            <div
+              aria-label="Image can be clicked"
+              class="ej-image-picker-item-content"
+              role="button"
+              style="background-image:url(https://zos.alipayobjects.com/rmsportal/hqQWgTXdrlmVVYi.jpeg);transform:rotate(0deg)"
+            />
+          </div>
+        </div>
+        <div
+          class="ej-flexbox-item"
+        >
+          <div
+            aria-label="Choose and add image"
+            class="ej-image-picker-item ej-image-picker-upload-btn"
+            role="button"
+          >
+            <input
+              accept="image/*"
+              type="file"
+            />
+          </div>
+        </div>
+        <div
+          class="ej-flexbox-item"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

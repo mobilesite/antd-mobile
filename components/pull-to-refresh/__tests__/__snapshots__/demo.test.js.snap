@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/pull-to-refresh/demo/basic.md correctly 1`] = `
+<div>
+  <a
+    aria-disabled="false"
+    class="ej-button"
+    role="button"
+    style="margin-bottom:15px"
+  >
+    <span>
+      direction: 
+    </span>
+    <span>
+      down
+    </span>
+  </a>
+  <div
+    class="ej-pull-to-refresh ej-pull-to-refresh-down"
+    style="height:0;overflow:auto"
+  >
+    <div
+      class="ej-pull-to-refresh-content-wrapper"
+    >
+      <div
+        class="ej-pull-to-refresh-content ej-pull-to-refresh-transition"
+      >
+        <div
+          class="ej-pull-to-refresh-indicator"
+        />
+        <div />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/pull-to-refresh/demo/basic-listview.md correctly 1`] = `
+<div>
+  <a
+    aria-disabled="false"
+    class="ej-button ej-button-inline"
+    role="button"
+    style="margin:30px 15px"
+  >
+    <span>
+      partial scroll
+    </span>
+  </a>
+  <div
+    class="ej-list-view-scrollview"
+    style="position:relative;overflow:auto;-webkit-overflow-scrolling:touch;height:0;border:1px solid #ddd;margin:5px 0"
+  >
+    <div
+      class="ej-list-view-scrollview-content ej-list"
+      style="position:absolute;min-width:100%"
+    >
+      <div
+        class="ej-pull-to-refresh ej-pull-to-refresh-down"
+      >
+        <div
+          class="ej-pull-to-refresh-content-wrapper"
+        >
+          <div
+            class="ej-pull-to-refresh-content ej-pull-to-refresh-transition"
+          >
+            <div
+              class="ej-pull-to-refresh-indicator"
+            />
+            <div>
+              <div
+                class="ej-list-header"
+              >
+                <span>
+                  Pull to refresh
+                </span>
+              </div>
+              <div
+                class="ej-list-body"
+              />
+              <div
+                class="ej-list-footer"
+              >
+                <div
+                  style="padding:30px;text-align:center"
+                >
+                  Loading...
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,35 @@
+@import '../../style/mixins';
+@import '../../style/themes/default';
+
+.ej-carousel {
+  position: relative;
+
+  &-wrap {
+    font-size: 18px;
+    color: @ej-color-text-base;
+    background: none;
+    text-align: center;
+    zoom: 1;
+    width: 100%;
+
+    &-dot {
+      display: inline-block;
+      zoom: 1;
+
+      > span {
+        display: block;
+        width: 8px;
+        height: 8px;
+        margin: 0 3px;
+        border-radius: @ej-radius-circle;
+        background: @ej-fill-icon-base;
+      }
+
+      &-active {
+        > span {
+          background: #888;
+        }
+      }
+    }
+  }
+}
